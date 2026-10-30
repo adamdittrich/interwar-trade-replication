@@ -1,0 +1,32 @@
+\begin{table}[!htbp]\centering
+\caption{Rolling prediction with a 1-year training window}\label{tab:app_rolling_one}
+\begin{threeparttable}\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+Dec. & Year & \shortstack{Rolling\\score (\%)} & \shortstack{Anchor\\score (\%)} & \shortstack{Difference\\(pp)} & \shortstack{Rolling\\TV (pp)} & \shortstack{Supported\\mass (\%)} & Cells \\
+\midrule
+Exp & 1928 & 95.8 & \textemdash & \textemdash & 4.8 & 99.96 & 342 \\
+Exp & 1929 & 95.4 & \textemdash & \textemdash & 4.4 & 99.97 & 341 \\
+Exp & 1930 & 94.1 & 92.6 & 1.5 & 5.0 & 99.92 & 345 \\
+Exp & 1931 & 91.7 & 83.3 & 8.4 & 6.1 & 99.95 & 345 \\
+Exp & 1932 & 91.6 & 78.2 & 13.4 & 6.8 & 99.95 & 342 \\
+Exp & 1933 & 93.8 & 77.0 & 16.8 & 5.2 & 99.91 & 340 \\
+Exp & 1934 & 93.1 & 73.4 & 19.7 & 5.3 & 99.88 & 344 \\
+Exp & 1935 & 91.1 & 66.9 & 24.2 & 6.6 & 99.83 & 346 \\
+Exp & 1936 & 88.5 & 57.1 & 31.4 & 6.9 & 99.84 & 347 \\
+Exp & 1937 & 89.9 & 56.0 & 33.9 & 6.3 & 99.82 & 331 \\
+Imp & 1928 & 91.5 & \textemdash & \textemdash & 4.9 & 99.98 & 343 \\
+Imp & 1929 & 96.9 & \textemdash & \textemdash & 3.6 & 99.97 & 344 \\
+Imp & 1930 & 92.8 & 91.2 & 1.6 & 4.6 & 99.97 & 347 \\
+Imp & 1931 & 90.7 & 85.9 & 4.8 & 5.4 & 99.96 & 345 \\
+Imp & 1932 & 90.6 & 79.7 & 10.9 & 6.8 & 99.91 & 344 \\
+Imp & 1933 & 92.6 & 75.5 & 17.0 & 5.3 & 99.82 & 341 \\
+Imp & 1934 & 87.4 & 68.4 & 19.0 & 6.1 & 99.86 & 346 \\
+Imp & 1935 & 87.8 & 56.0 & 31.8 & 6.6 & 99.79 & 342 \\
+Imp & 1936 & 87.7 & 55.6 & 32.1 & 6.5 & 99.84 & 346 \\
+Imp & 1937 & 77.4 & 47.0 & 30.4 & 8.4 & 99.70 & 346 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize\item \textit{Notes:} Every rolling map predicts the year immediately after its training window. From 1930 onward, rolling and 1927--1929 anchored maps are fitted and evaluated on the intersection of their positive training supports, with identical current margins and benchmark observations. The displayed difference is rolling minus anchored score. Pre-1930 rows have no out-of-period 1927--1929 anchor. Outcomes retain their world-share denominators; supported mass is the mean reporter total on the selected support.
+\item \textit{Source:} Author's calculations from League of Nations trade statistics \parencite{league1930,league1936,league1938}.
+\end{tablenotes}\end{threeparttable}\end{table}

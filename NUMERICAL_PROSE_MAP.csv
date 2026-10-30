@@ -1,0 +1,33 @@
+macro,typeset_value,authoritative_source,result_locator
+attenuation_m_1937,$-0.336$,output/analysis_summary.json,attenuation.import[year=1937].estimate
+attenuation_x_1937,$-0.375$,output/analysis_summary.json,attenuation.export[year=1937].estimate
+external_france_m_1928,56.7,output/analysis_summary.json,"external_shares.import[reporter=France,year=1928].external_share"
+external_france_m_1937,61.3,output/analysis_summary.json,"external_shares.import[reporter=France,year=1937].external_share"
+external_france_x_1928,37.3,output/analysis_summary.json,"external_shares.export[reporter=France,year=1928].external_share"
+external_france_x_1937,47.6,output/analysis_summary.json,"external_shares.export[reporter=France,year=1937].external_share"
+external_germany_m_1928,54.6,output/analysis_summary.json,"external_shares.import[reporter=Germany,year=1928].external_share"
+external_germany_m_1937,52.0,output/analysis_summary.json,"external_shares.import[reporter=Germany,year=1937].external_share"
+external_germany_x_1928,32.1,output/analysis_summary.json,"external_shares.export[reporter=Germany,year=1928].external_share"
+external_germany_x_1937,38.4,output/analysis_summary.json,"external_shares.export[reporter=Germany,year=1937].external_share"
+geo_m_1937,23.2,output/analysis_summary.json,"revised.established_geography[declaration=Importer,year=1937].history_increment_over_geography"
+geo_x_1937,36.2,output/analysis_summary.json,"revised.established_geography[declaration=Exporter,year=1937].history_increment_over_geography"
+germany_m_in_1937,0.748,output/analysis_summary.json,"germany.import_event[direction=Balkan exports to Germany,year=1937].estimate"
+germany_m_out_1937,1.137,output/analysis_summary.json,"germany.import_event[direction=Germany exports to Balkans,year=1937].estimate"
+germany_x_in_1937,0.633,output/analysis_summary.json,"germany.export_event[direction=Balkan exports to Germany,year=1937].estimate"
+germany_x_out_1937,1.223,output/analysis_summary.json,"germany.export_event[direction=Germany exports to Balkans,year=1937].estimate"
+matched_difference_1937,11.3,output/analysis_summary.json,revised.matched_declaration_differences[year=1937].difference_exporter_minus_importer
+matched_interval_1937,"\([-26.6, 49.1]\)",output/analysis_summary.json,"revised.matched_declaration_differences[year=1937].jk_interval_low,jk_interval_high"
+new_m_internal_1937,0.488,output/analysis_summary.json,"revised.newly_positive_cells[declaration=Importer,year=1937].mean_newly_positive_fraction_of_internal"
+new_m_world_1937,0.284,output/analysis_summary.json,"revised.newly_positive_cells[declaration=Importer,year=1937].mean_newly_positive_world_share"
+new_x_internal_1937,0.188,output/analysis_summary.json,"revised.newly_positive_cells[declaration=Exporter,year=1937].mean_newly_positive_fraction_of_internal"
+new_x_world_1937,0.150,output/analysis_summary.json,"revised.newly_positive_cells[declaration=Exporter,year=1937].mean_newly_positive_world_share"
+pretrend_m_in,$<0.001$,output/analysis_summary.json,germany.import_diagnostics[direction=Balkan exports to Germany].pretrend_p
+pretrend_m_out,0.003,output/analysis_summary.json,germany.import_diagnostics[direction=Germany exports to Balkans].pretrend_p
+pretrend_x_in,0.817,output/analysis_summary.json,germany.export_diagnostics[direction=Balkan exports to Germany].pretrend_p
+pretrend_x_out,0.341,output/analysis_summary.json,germany.export_diagnostics[direction=Germany exports to Balkans].pretrend_p
+score_m_1930,91.2,output/analysis_summary.json,"revised.established_prediction[declaration=Importer,year=1930].score"
+score_m_1937,47.7,output/analysis_summary.json,"revised.established_prediction[declaration=Importer,year=1937].score"
+score_x_1930,92.6,output/analysis_summary.json,"revised.established_prediction[declaration=Exporter,year=1930].score"
+score_x_1937,56.1,output/analysis_summary.json,"revised.established_prediction[declaration=Exporter,year=1937].score"
+tv_m_1937,15.5,output/analysis_summary.json,"revised.established_prediction[declaration=Importer,year=1937].tv_world_share"
+tv_x_1937,14.1,output/analysis_summary.json,"revised.established_prediction[declaration=Exporter,year=1937].tv_world_share"

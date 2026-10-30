@@ -1,0 +1,28 @@
+\begin{table}[!htbp]\centering
+\caption{Established-link prediction: annual results and country sensitivity}\label{tab:app_primary}
+\begin{threeparttable}\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+Dec. & Year & $P_t$ (\%) & \shortstack{Deletion\\range} & \shortstack{Jackknife\\interval} & \shortstack{World\\TV (pp)} & \shortstack{Supported\\TV (pp)} & Cells \\
+\midrule
+Exp & 1930 & 92.6 & [90.8, 93.8] & [86.3, 98.8] & 6.1 & 6.1 & 350 \\
+Exp & 1931 & 83.5 & [79.1, 85.2] & [70.3, 96.7] & 8.8 & 8.8 & 350 \\
+Exp & 1932 & 78.7 & [73.8, 81.3] & [62.6, 94.8] & 11.5 & 11.5 & 350 \\
+Exp & 1933 & 77.1 & [70.8, 79.8] & [59.2, 95.1] & 11.5 & 11.5 & 350 \\
+Exp & 1934 & 73.9 & [66.1, 77.9] & [48.3, 99.4] & 11.6 & 11.6 & 350 \\
+Exp & 1935 & 66.8 & [54.6, 71.3] & [33.5, 100.1] & 12.7 & 12.7 & 350 \\
+Exp & 1936 & 57.4 & [44.3, 62.6] & [21.5, 93.3] & 15.0 & 15.0 & 350 \\
+Exp & 1937 & 56.1 & [37.8, 62.7] & [11.0, 101.1] & 14.1 & 14.1 & 335 \\
+Imp & 1930 & 91.2 & [89.2, 93.4] & [83.5, 99.0] & 5.5 & 5.5 & 350 \\
+Imp & 1931 & 86.0 & [82.8, 89.1] & [75.5, 96.5] & 7.1 & 7.1 & 350 \\
+Imp & 1932 & 80.1 & [76.8, 85.2] & [66.1, 94.0] & 9.8 & 9.8 & 350 \\
+Imp & 1933 & 76.1 & [70.6, 81.3] & [58.9, 93.2] & 11.3 & 11.3 & 350 \\
+Imp & 1934 & 68.8 & [59.8, 77.1] & [40.7, 96.9] & 12.1 & 12.1 & 350 \\
+Imp & 1935 & 57.2 & [48.1, 66.6] & [19.1, 95.2] & 13.2 & 13.3 & 350 \\
+Imp & 1936 & 56.3 & [48.7, 62.3] & [24.1, 88.6] & 14.2 & 14.2 & 350 \\
+Imp & 1937 & 47.7 & [40.7, 56.8] & [12.8, 82.7] & 15.5 & 15.6 & 350 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize\item \textit{Notes:} Exp and Imp denote exporter and importer declarations. The support is fixed by positive total recorded trade in 1927--1929, including \External{}. Entries are $100P_t=100(1-D_H/D_M)$. Deletion ranges show actual minima and maxima after all-incident-dyad country removal. Jackknife intervals are full-sample estimate $\pm1.96$ times the conventional delete-country jackknife standard error; they are sensitivity summaries, can exceed 100\%, and are not clipped. World TV uses original world-share units; supported TV divides each reporter's half absolute error by that reporter's supported observed mass.
+\item \textit{Source:} Author's calculations from League of Nations trade statistics \parencite{league1930,league1936,league1938}.
+\end{tablenotes}\end{threeparttable}\end{table}

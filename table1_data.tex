@@ -1,0 +1,19 @@
+\begin{table}[!htbp]\centering
+\caption{Data architecture and analysis boundaries}\label{tab:data}
+\begin{threeparttable}\small\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\textwidth}{@{}p{.25\textwidth}X@{}}
+\toprule
+Component & Construction \\
+\midrule
+Source grid & 5,040 rows; 21 reporters; 1927--1938. The study uses 1927--1937. \\
+Measurement & Exporter and importer declarations estimated separately in reporter world-share units. \\
+Trade concept & Special trade where available; Norway uses general trade. \\
+Core boundary & Nineteen named countries plus a fixed \External{} residual, containing Bulgaria, Yugoslavia and every other non-core country. \\
+Missing and zero & 321 missing export and 321 missing import entries in the full source grid. Blanks remain missing; recorded zeros remain zero. \\
+Established support & 350 positive-pre-period cells per declaration, including 331 internal cells; later zeros retained. \\
+Closure exclusion & Spain's 1937 export account sums to 116.4\%; its entire export reporter-year is omitted. The import account is retained. \\
+\bottomrule
+\end{tabularx}
+\begin{tablenotes}[flushleft]\footnotesize\item \textit{Notes:} The core's \External{} boundary is fixed across years. Established support requires a positive recorded total in 1927--1929; selected outcomes retain their original world-share denominators.
+\item \textit{Source:} Author's calculations from League of Nations trade statistics \parencite{league1930,league1936,league1938}.
+\end{tablenotes}\end{threeparttable}\end{table}

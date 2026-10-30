@@ -1,0 +1,28 @@
+\begin{table}[!htbp]\centering
+\caption{Rolling prediction with a 3-year training window}\label{tab:app_rolling_three}
+\begin{threeparttable}\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+Dec. & Year & \shortstack{Rolling\\score (\%)} & \shortstack{Anchor\\score (\%)} & \shortstack{Difference\\(pp)} & \shortstack{Rolling\\TV (pp)} & \shortstack{Supported\\mass (\%)} & Cells \\
+\midrule
+Exp & 1930 & 92.6 & 92.6 & 0.0 & 6.1 & 99.98 & 350 \\
+Exp & 1931 & 89.2 & 83.5 & 5.7 & 7.1 & 99.95 & 349 \\
+Exp & 1932 & 89.6 & 78.6 & 10.9 & 8.3 & 99.95 & 349 \\
+Exp & 1933 & 92.6 & 77.3 & 15.3 & 6.7 & 99.92 & 346 \\
+Exp & 1934 & 91.9 & 73.6 & 18.3 & 5.9 & 99.91 & 347 \\
+Exp & 1935 & 86.8 & 66.7 & 20.1 & 8.2 & 99.88 & 348 \\
+Exp & 1936 & 85.4 & 57.3 & 28.1 & 8.4 & 99.84 & 349 \\
+Exp & 1937 & 89.2 & 56.1 & 33.1 & 7.0 & 99.84 & 333 \\
+Imp & 1930 & 91.2 & 91.2 & 0.0 & 5.5 & 99.98 & 350 \\
+Imp & 1931 & 90.5 & 86.0 & 4.5 & 6.0 & 99.96 & 349 \\
+Imp & 1932 & 86.4 & 80.1 & 6.3 & 8.2 & 99.93 & 350 \\
+Imp & 1933 & 90.5 & 75.9 & 14.6 & 7.3 & 99.86 & 347 \\
+Imp & 1934 & 84.8 & 68.5 & 16.2 & 7.3 & 99.86 & 347 \\
+Imp & 1935 & 79.9 & 56.6 & 23.3 & 8.4 & 99.83 & 346 \\
+Imp & 1936 & 84.8 & 55.9 & 28.9 & 8.2 & 99.85 & 348 \\
+Imp & 1937 & 79.2 & 47.1 & 32.1 & 7.9 & 99.70 & 348 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize\item \textit{Notes:} Every rolling map predicts the year immediately after its training window. From 1930 onward, rolling and 1927--1929 anchored maps are fitted and evaluated on the intersection of their positive training supports, with identical current margins and benchmark observations. The displayed difference is rolling minus anchored score. Pre-1930 rows have no out-of-period 1927--1929 anchor. Outcomes retain their world-share denominators; supported mass is the mean reporter total on the selected support.
+\item \textit{Source:} Author's calculations from League of Nations trade statistics \parencite{league1930,league1936,league1938}.
+\end{tablenotes}\end{threeparttable}\end{table}

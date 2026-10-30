@@ -1,0 +1,20 @@
+\begin{table}[!htbp]\centering
+\caption{Positive-lag persistence and the descriptive fitted-prediction blend}\label{tab:app_lag}
+\begin{threeparttable}\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llrrrrrrr@{}}
+\toprule
+Dec. & Period & \shortstack{Lag elasticity\\(cluster SE)} & $\alpha$ & \shortstack{Flexible MSE\\$\times10^4$} & \shortstack{Lag MSE\\$\times10^4$} & \shortstack{Blend MSE\\$\times10^4$} & $N$ & \shortstack{Excluded\\zero lags} \\
+\midrule
+Exp & 1928--1937 & 0.939 (0.006) & 0.625 & 1.951 & 1.487 & 1.226 & 3,461 & 130 \\
+Exp & 1928--1931 & 0.929 (0.008) & 0.223 & 0.737 & 1.180 & 0.698 & 1,376 & 68 \\
+Exp & 1932--1937 & 0.946 (0.007) & 0.441 & 1.508 & 1.681 & 1.221 & 2,085 & 62 \\
+Exp & 1934--1937 & 0.938 (0.009) & 0.317 & 1.113 & 1.694 & 0.954 & 1,392 & 33 \\
+Imp & 1928--1937 & 0.931 (0.008) & 0.631 & 2.672 & 2.079 & 1.769 & 3,496 & 114 \\
+Imp & 1928--1931 & 0.930 (0.008) & 0.054 & 0.562 & 1.431 & 0.559 & 1,383 & 61 \\
+Imp & 1932--1937 & 0.931 (0.012) & 0.430 & 2.215 & 2.502 & 1.833 & 2,113 & 53 \\
+Imp & 1934--1937 & 0.914 (0.015) & 0.133 & 1.328 & 2.736 & 1.294 & 1,416 & 28 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize\item \textit{Notes:} The lag coefficient is estimated on the exact log of a strictly positive recorded lagged share, with origin-year and destination-year effects. Current zeros remain. The flexible prediction uses directed-pair and both country-year effects on the same sample. The bounded $\alpha$ minimizes in-sample squared error of $\alpha\widehat x^{lag}+(1-\alpha)\widehat x^{flex}$. It is a descriptive fit weight rather than a structural share of sticky contracts. All displayed blend weights have positive identification denominators. Period labels are calendar intervals and do not assert identified break dates.
+\item \textit{Source:} Author's calculations from League of Nations trade statistics \parencite{league1930,league1936,league1938}.
+\end{tablenotes}\end{threeparttable}\end{table}

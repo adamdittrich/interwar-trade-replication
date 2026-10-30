@@ -1,0 +1,16 @@
+\begin{table}[!htbp]\centering
+\caption{Germany: all-pre-period tests and a trend-adjusted level shift}\label{tab:app_germany_diagnostics}
+\begin{threeparttable}\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+Dec. & Direction & Wald $\chi^2_5$ & $p$ & \shortstack{Linear trend\\(SE)} & \shortstack{Post-1934 shift\\(SE)} \\
+\midrule
+Exp & Germany $\to$ region & 5.659 & 0.341 & 0.129 (0.031) & 0.104 (0.114) \\
+Exp & Region $\to$ Germany & 2.227 & 0.817 & 0.021 (0.032) & 0.441 (0.105) \\
+Imp & Germany $\to$ region & 18.368 & 0.003 & 0.102 (0.025) & 0.377 (0.120) \\
+Imp & Region $\to$ Germany & 28.610 & $<0.001$ & 0.087 (0.040) & 0.150 (0.140) \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize\item \textit{Notes:} The joint Wald test covers every 1928--1932 interaction against the sole 1933 reference. The trend and level-shift estimates come from separate direction-specific specifications including a dyad-group linear trend and a post-1934 indicator, alongside all three fixed-effect families. A level indicator does not estimate a post-1934 slope acceleration. Failure to reject a pre-period restriction is not evidence that parallel trends have been established.
+\item \textit{Source:} Author's calculations from League of Nations trade statistics \parencite{league1930,league1936,league1938}.
+\end{tablenotes}\end{threeparttable}\end{table}

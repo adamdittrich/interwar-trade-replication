@@ -1,0 +1,5769 @@
+{
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "system": "Linux"
+  },
+  "audit": {
+    "n_rows": 5040,
+    "countries": 21,
+    "missing_export": 321,
+    "missing_import": 321,
+    "anomalies": {
+      "export": [
+        {
+          "type": "nonclosing",
+          "declaration": "export",
+          "year": 1937,
+          "reporter": "Spain",
+          "internal_sum": 1.164,
+          "residual": -0.16399999999999992
+        }
+      ],
+      "import": []
+    }
+  },
+  "sticky": {
+    "export": [
+      {
+        "gamma": 0.9388427175757289,
+        "gamma_se": 0.005977600911824406,
+        "alpha": 0.6250400359805777,
+        "flexible_mse": 0.00019507527655620587,
+        "sticky_mse": 0.00014868839310492503,
+        "blended_mse": 0.00012260969498927387,
+        "alpha_identified": true,
+        "zero_lag_treatment": "condition on strictly positive recorded lag; current zeros retained",
+        "excluded_zero_lag_observations": 130,
+        "gamma_estimation_nobs": 3461,
+        "nobs": 3461,
+        "portfolio_adjusted": true,
+        "period": "Full 1928-1937",
+        "declaration": "Exporter"
+      },
+      {
+        "gamma": 0.9287806491658658,
+        "gamma_se": 0.00792791738195983,
+        "alpha": 0.22256025288728035,
+        "flexible_mse": 7.37138760553158e-05,
+        "sticky_mse": 0.00011802287714130187,
+        "blended_mse": 6.975849348063265e-05,
+        "alpha_identified": true,
+        "zero_lag_treatment": "condition on strictly positive recorded lag; current zeros retained",
+        "excluded_zero_lag_observations": 68,
+        "gamma_estimation_nobs": 1376,
+        "nobs": 1376,
+        "portfolio_adjusted": true,
+        "period": "Pre-break 1928-1931",
+        "declaration": "Exporter"
+      },
+      {
+        "gamma": 0.9464542078666074,
+        "gamma_se": 0.007418330074499372,
+        "alpha": 0.44138399666995265,
+        "flexible_mse": 0.00015082164760322713,
+        "sticky_mse": 0.0001680935913988868,
+        "blended_mse": 0.00012211858865740193,
+        "alpha_identified": true,
+        "zero_lag_treatment": "condition on strictly positive recorded lag; current zeros retained",
+        "excluded_zero_lag_observations": 62,
+        "gamma_estimation_nobs": 2085,
+        "nobs": 2085,
+        "portfolio_adjusted": true,
+        "period": "Post-break 1932-1937",
+        "declaration": "Exporter"
+      },
+      {
+        "gamma": 0.9381138143707363,
+        "gamma_se": 0.009031811978257018,
+        "alpha": 0.31652012324274853,
+        "flexible_mse": 0.00011126586178267464,
+        "sticky_mse": 0.0001694329944005118,
+        "blended_mse": 9.538544587386852e-05,
+        "alpha_identified": true,
+        "zero_lag_treatment": "condition on strictly positive recorded lag; current zeros retained",
+        "excluded_zero_lag_observations": 33,
+        "gamma_estimation_nobs": 1392,
+        "nobs": 1392,
+        "portfolio_adjusted": true,
+        "period": "New Plan era 1934-1937",
+        "declaration": "Exporter"
+      }
+    ],
+    "import": [
+      {
+        "gamma": 0.9306610152988355,
+        "gamma_se": 0.008042323203900038,
+        "alpha": 0.6307735101301194,
+        "flexible_mse": 0.0002672222080743615,
+        "sticky_mse": 0.00020786185021987188,
+        "blended_mse": 0.00017692098620857906,
+        "alpha_identified": true,
+        "zero_lag_treatment": "condition on strictly positive recorded lag; current zeros retained",
+        "excluded_zero_lag_observations": 114,
+        "gamma_estimation_nobs": 3496,
+        "nobs": 3496,
+        "portfolio_adjusted": true,
+        "period": "Full 1928-1937",
+        "declaration": "Importer"
+      },
+      {
+        "gamma": 0.9298120858396837,
+        "gamma_se": 0.008473552119423742,
+        "alpha": 0.05421749626817718,
+        "flexible_mse": 5.617418470758758e-05,
+        "sticky_mse": 0.0001431058975317244,
+        "blended_mse": 5.588756626067037e-05,
+        "alpha_identified": true,
+        "zero_lag_treatment": "condition on strictly positive recorded lag; current zeros retained",
+        "excluded_zero_lag_observations": 61,
+        "gamma_estimation_nobs": 1383,
+        "nobs": 1383,
+        "portfolio_adjusted": true,
+        "period": "Pre-break 1928-1931",
+        "declaration": "Importer"
+      },
+      {
+        "gamma": 0.9312340208860641,
+        "gamma_se": 0.011500337422286499,
+        "alpha": 0.43031558567802775,
+        "flexible_mse": 0.00022148027417849707,
+        "sticky_mse": 0.0002502095222504316,
+        "blended_mse": 0.00018330934237637133,
+        "alpha_identified": true,
+        "zero_lag_treatment": "condition on strictly positive recorded lag; current zeros retained",
+        "excluded_zero_lag_observations": 53,
+        "gamma_estimation_nobs": 2113,
+        "nobs": 2113,
+        "portfolio_adjusted": true,
+        "period": "Post-break 1932-1937",
+        "declaration": "Importer"
+      },
+      {
+        "gamma": 0.9142671809509502,
+        "gamma_se": 0.015282254466933745,
+        "alpha": 0.13277676505830374,
+        "flexible_mse": 0.000132772622447134,
+        "sticky_mse": 0.0002735501379399019,
+        "blended_mse": 0.000129393395845437,
+        "alpha_identified": true,
+        "zero_lag_treatment": "condition on strictly positive recorded lag; current zeros retained",
+        "excluded_zero_lag_observations": 28,
+        "gamma_estimation_nobs": 1416,
+        "nobs": 1416,
+        "portfolio_adjusted": true,
+        "period": "New Plan era 1934-1937",
+        "declaration": "Importer"
+      }
+    ]
+  },
+  "attenuation": {
+    "export": [
+      {
+        "year": 1928,
+        "estimate": 0.08517140471100909,
+        "se": 0.017247075676159202,
+        "ci_low": 0.051367136385737054,
+        "ci_high": 0.11897567303628112,
+        "relative_percent_for_one_sd": 8.890369392652286,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "estimate": -0.08443236139021427,
+        "se": 0.021947844243923702,
+        "ci_low": -0.12745013610830475,
+        "ci_high": -0.04141458667212382,
+        "relative_percent_for_one_sd": -8.096618455577953,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "estimate": -0.19625492404483694,
+        "se": 0.03440993766066755,
+        "ci_low": -0.26369840185974536,
+        "ci_high": -0.12881144622992854,
+        "relative_percent_for_one_sd": -17.819728929809862,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "estimate": -0.20049729781249429,
+        "se": 0.03920024497846451,
+        "ci_low": -0.27732977797028474,
+        "ci_high": -0.12366481765470384,
+        "relative_percent_for_one_sd": -18.167629871317416,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "estimate": -0.2483091080288206,
+        "se": 0.03636624648729577,
+        "ci_low": -0.31958695114392033,
+        "ci_high": -0.1770312649137209,
+        "relative_percent_for_one_sd": -21.98812349688164,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "estimate": -0.2937400427877019,
+        "se": 0.04308333549177121,
+        "ci_low": -0.37818338035157345,
+        "ci_high": -0.20929670522383031,
+        "relative_percent_for_one_sd": -25.45297433733672,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "estimate": -0.31374495143777864,
+        "se": 0.05050923001889467,
+        "ci_low": -0.4127430422748122,
+        "ci_high": -0.2147468606007451,
+        "relative_percent_for_one_sd": -26.929463025070056,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "estimate": -0.33570091306753047,
+        "se": 0.05537600615362278,
+        "ci_low": -0.4442378851286311,
+        "ci_high": -0.22716394100642984,
+        "relative_percent_for_one_sd": -28.51631277855776,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1937,
+        "estimate": -0.3752671654518414,
+        "se": 0.05343308961721661,
+        "ci_low": -0.47999602110158596,
+        "ci_high": -0.27053830980209687,
+        "relative_percent_for_one_sd": -31.289431663347244,
+        "declaration": "Exporter"
+      }
+    ],
+    "import": [
+      {
+        "year": 1928,
+        "estimate": 0.04807703883915188,
+        "se": 0.014497232479560803,
+        "ci_low": 0.01966246317921271,
+        "ci_high": 0.07649161449909106,
+        "relative_percent_for_one_sd": 4.925148532731383,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "estimate": -0.11321839775010292,
+        "se": 0.024983213011387555,
+        "ci_low": -0.16218549525242254,
+        "ci_high": -0.06425130024778332,
+        "relative_percent_for_one_sd": -10.704438067964606,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "estimate": -0.13796434483487924,
+        "se": 0.03273974066812234,
+        "ci_low": -0.20213423654439902,
+        "ci_high": -0.07379445312535945,
+        "relative_percent_for_one_sd": -12.88702485327945,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "estimate": -0.0979697197583131,
+        "se": 0.03970546849206486,
+        "ci_low": -0.17579243800276023,
+        "ci_high": -0.020147001513865975,
+        "relative_percent_for_one_sd": -9.332364228249402,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "estimate": -0.1594598179986391,
+        "se": 0.04278099077508757,
+        "ci_low": -0.24331055991781073,
+        "ci_high": -0.07560907607946746,
+        "relative_percent_for_one_sd": -14.739577394770043,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "estimate": -0.23144835776250094,
+        "se": 0.048922700291496736,
+        "ci_low": -0.32733685033383453,
+        "ci_high": -0.13555986519116736,
+        "relative_percent_for_one_sd": -20.661633344706722,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "estimate": -0.3098139909435166,
+        "se": 0.055179986293933364,
+        "ci_low": -0.41796676407962596,
+        "ci_high": -0.2016612178074072,
+        "relative_percent_for_one_sd": -26.641660331021512,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "estimate": -0.3193606351953416,
+        "se": 0.05411756147057675,
+        "ci_low": -0.42543105567767203,
+        "ci_high": -0.21329021471301113,
+        "relative_percent_for_one_sd": -27.338654033715937,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "estimate": -0.33636583125234243,
+        "se": 0.06192880266521413,
+        "ci_low": -0.4577462844761621,
+        "ci_high": -0.21498537802852274,
+        "relative_percent_for_one_sd": -28.56382778356268,
+        "declaration": "Importer"
+      }
+    ],
+    "export_best_break": {
+      "break_year": 1931,
+      "estimate": -0.2781103995649233,
+      "se": 0.035847213297954636,
+      "loglik": -582.3444928130231,
+      "deviance": 7.562682431745535,
+      "declaration": "Exporter"
+    },
+    "import_best_break": {
+      "break_year": 1934,
+      "estimate": -0.22151579587110815,
+      "se": 0.04180635834125384,
+      "loglik": -576.7287075216794,
+      "deviance": 8.890982890053941,
+      "declaration": "Importer"
+    }
+  },
+  "germany": {
+    "export_event": [
+      {
+        "direction": "Germany exports to Balkans",
+        "year": 1928,
+        "estimate": -0.07334683653853558,
+        "se": 0.18826434581239349,
+        "ci_low": -0.4423449543308268,
+        "ci_high": 0.29565128125375567,
+        "percent": -7.072153360133937,
+        "declaration": "Exporter"
+      },
+      {
+        "direction": "Germany exports to Balkans",
+        "year": 1929,
+        "estimate": -0.13874435000652427,
+        "se": 0.1754348632719866,
+        "ci_low": -0.48259668201961803,
+        "ci_high": 0.20510798200656946,
+        "percent": -12.954946931181565,
+        "declaration": "Exporter"
+      },
+      {
+        "direction": "Germany exports to Balkans",
+        "year": 1930,
+        "estimate": 0.064278206757437,
+        "se": 0.20106916041681974,
+        "ci_low": -0.3298173476595297,
+        "ci_high": 0.4583737611744037,
+        "percent": 6.6389034131961955,
+        "declaration": "Exporter"
+      },
+      {
+        "direction": "Germany exports to Balkans",
+        "year": 1931,
+        "estimate": 0.13298175004034016,
+        "se": 0.15021226188468512,
+        "ci_low": -0.16143428325364265,
+        "ci_high": 0.427397783334323,
+        "percent": 14.222915250472145,
+        "declaration": "Exporter"
+      },
+      {
+        "direction": "Germany exports to Balkans",
+        "year": 1932,
+        "estimate": 0.031615766430641755,
+        "se": 0.11523836121737811,
+        "ci_low": -0.19425142155541933,
+        "ci_high": 0.2574829544167028,
+        "percent": 3.212085362695527,
+        "declaration": "Exporter"
+      },
+      {
+        "direction": "Germany exports to Balkans",
+        "year": 1934,
+        "estimate": 0.16951422581388811,
+        "se": 0.09175610738195035,
+        "ci_low": -0.010327744654734572,
+        "ci_high": 0.3493561962825108,
+        "percent": 18.47292006503587,
+        "declaration": "Exporter"
+      },
+      {
+        "direction": "Germany exports to Balkans",
+        "year": 1935,
+        "estimate": 0.4864075015830562,
+        "se": 0.12543938683518374,
+        "ci_low": 0.24054630338609606,
+        "ci_high": 0.7322686997800163,
+        "percent": 62.64626472900423,
+        "declaration": "Exporter"
+      },
+      {
+        "direction": "Germany exports to Balkans",
+        "year": 1936,
+        "estimate": 0.9898225376549463,
+        "se": 0.12778960171251993,
+        "ci_low": 0.7393549182984073,
+        "ci_high": 1.2402901570114855,
+        "percent": 169.0756921943571,
+        "declaration": "Exporter"
+      },
+      {
+        "direction": "Germany exports to Balkans",
+        "year": 1937,
+        "estimate": 1.2233130796547176,
+        "se": 0.15377152879331094,
+        "ci_low": 0.9219208832198282,
+        "ci_high": 1.524705276089607,
+        "percent": 239.84283666627263,
+        "declaration": "Exporter"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "year": 1928,
+        "estimate": -0.04966282997211045,
+        "se": 0.17187910837231002,
+        "ci_low": -0.3865458823818381,
+        "ci_high": 0.2872202224376172,
+        "percent": -4.844979537201444,
+        "declaration": "Exporter"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "year": 1929,
+        "estimate": 0.04780551677097292,
+        "se": 0.2342299446299449,
+        "ci_low": -0.41128517470371906,
+        "ci_high": 0.506896208245665,
+        "percent": 4.896662906810811,
+        "declaration": "Exporter"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "year": 1930,
+        "estimate": -0.023768592773057054,
+        "se": 0.1662386462930065,
+        "ci_low": -0.34959633950734975,
+        "ci_high": 0.30205915396123567,
+        "percent": -2.3488344531564675,
+        "declaration": "Exporter"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "year": 1931,
+        "estimate": -0.06547458440825733,
+        "se": 0.09517130846194917,
+        "ci_low": -0.2520103489936777,
+        "ci_high": 0.12106118017716304,
+        "percent": -6.337714871887146,
+        "declaration": "Exporter"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "year": 1932,
+        "estimate": -0.10627329869690628,
+        "se": 0.11545321030280041,
+        "ci_low": -0.3325615908903951,
+        "ci_high": 0.12001499349658253,
+        "percent": -10.082112992142743,
+        "declaration": "Exporter"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "year": 1934,
+        "estimate": 0.27006837163316233,
+        "se": 0.08249127832610144,
+        "ci_low": 0.10838546611400351,
+        "ci_high": 0.43175127715232114,
+        "percent": 31.00540182040308,
+        "declaration": "Exporter"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "year": 1935,
+        "estimate": 0.588223734760561,
+        "se": 0.1108749491603634,
+        "ci_low": 0.3709088344062487,
+        "ci_high": 0.8055386351148732,
+        "percent": 80.07868976973013,
+        "declaration": "Exporter"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "year": 1936,
+        "estimate": 0.5715091082452753,
+        "se": 0.16222420341227128,
+        "ci_low": 0.25354966955722363,
+        "ci_high": 0.889468546933327,
+        "percent": 77.09375723666601,
+        "declaration": "Exporter"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "year": 1937,
+        "estimate": 0.6325959267901865,
+        "se": 0.18136102842599305,
+        "ci_low": 0.2771283110752401,
+        "ci_high": 0.988063542505133,
+        "percent": 88.24910508012745,
+        "declaration": "Exporter"
+      }
+    ],
+    "import_event": [
+      {
+        "direction": "Germany exports to Balkans",
+        "year": 1928,
+        "estimate": -0.2266832509722464,
+        "se": 0.19213378079295532,
+        "ci_low": -0.6032654613264388,
+        "ci_high": 0.14989895938194603,
+        "percent": -20.282675384514228,
+        "declaration": "Importer"
+      },
+      {
+        "direction": "Germany exports to Balkans",
+        "year": 1929,
+        "estimate": -0.1766963114628964,
+        "se": 0.1867759756347682,
+        "ci_low": -0.5427772237070421,
+        "ci_high": 0.18938460078124922,
+        "percent": -16.196575272307435,
+        "declaration": "Importer"
+      },
+      {
+        "direction": "Germany exports to Balkans",
+        "year": 1930,
+        "estimate": -0.0770601243442667,
+        "se": 0.19445083211127148,
+        "ci_low": -0.4581837552823588,
+        "ci_high": 0.3040635065938254,
+        "percent": -7.416581324033277,
+        "declaration": "Importer"
+      },
+      {
+        "direction": "Germany exports to Balkans",
+        "year": 1931,
+        "estimate": -0.041247199424698594,
+        "se": 0.1954785305512529,
+        "ci_low": -0.4243851193051542,
+        "ci_high": 0.3418907204557571,
+        "percent": -4.040810993694355,
+        "declaration": "Importer"
+      },
+      {
+        "direction": "Germany exports to Balkans",
+        "year": 1932,
+        "estimate": -0.09022082375001438,
+        "se": 0.13910285794444022,
+        "ci_low": -0.36286242532111723,
+        "ci_high": 0.18242077782108845,
+        "percent": -8.627061015892668,
+        "declaration": "Importer"
+      },
+      {
+        "direction": "Germany exports to Balkans",
+        "year": 1934,
+        "estimate": 0.23053956540386653,
+        "se": 0.10646102996009897,
+        "ci_low": 0.021875946682072545,
+        "ci_high": 0.4392031841256605,
+        "percent": 25.92792901937271,
+        "declaration": "Importer"
+      },
+      {
+        "direction": "Germany exports to Balkans",
+        "year": 1935,
+        "estimate": 0.7300206737712175,
+        "se": 0.11556810681205879,
+        "ci_low": 0.5035071844195823,
+        "ci_high": 0.9565341631228527,
+        "percent": 107.51235078593164,
+        "declaration": "Importer"
+      },
+      {
+        "direction": "Germany exports to Balkans",
+        "year": 1936,
+        "estimate": 0.9875435491020137,
+        "se": 0.1247927399019947,
+        "ci_low": 0.7429497788941041,
+        "ci_high": 1.2321373193099232,
+        "percent": 168.46317000261465,
+        "declaration": "Importer"
+      },
+      {
+        "direction": "Germany exports to Balkans",
+        "year": 1937,
+        "estimate": 1.1368685966916752,
+        "se": 0.14516384346863975,
+        "ci_low": 0.8523474634931413,
+        "ci_high": 1.4213897298902092,
+        "percent": 211.69925064494905,
+        "declaration": "Importer"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "year": 1928,
+        "estimate": -0.208472153332044,
+        "se": 0.22797561798344773,
+        "ci_low": -0.6553043645796015,
+        "ci_high": 0.23836005791551357,
+        "percent": -18.817635902884334,
+        "declaration": "Importer"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "year": 1929,
+        "estimate": -0.29736945176457613,
+        "se": 0.27503322205425107,
+        "ci_low": -0.8364345669909081,
+        "ci_high": 0.24169566346175592,
+        "percent": -25.723045585507954,
+        "declaration": "Importer"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "year": 1930,
+        "estimate": -0.01335673553542009,
+        "se": 0.25186245102827937,
+        "ci_low": -0.5070071395508476,
+        "ci_high": 0.48029366848000743,
+        "percent": -1.326793016630845,
+        "declaration": "Importer"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "year": 1931,
+        "estimate": -0.14599689862462986,
+        "se": 0.1372667956209404,
+        "ci_low": -0.415039818041673,
+        "ci_high": 0.12304602079241331,
+        "percent": -13.583961673378475,
+        "declaration": "Importer"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "year": 1932,
+        "estimate": -0.0021393628107650867,
+        "se": 0.0980152510455718,
+        "ci_low": -0.19424925486008582,
+        "ci_high": 0.18997052923855562,
+        "percent": -0.21370760052066284,
+        "declaration": "Importer"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "year": 1934,
+        "estimate": 0.2785536044861733,
+        "se": 0.14655171808628562,
+        "ci_low": -0.008687762962946544,
+        "ci_high": 0.565794971935293,
+        "percent": 32.12174266790824,
+        "declaration": "Importer"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "year": 1935,
+        "estimate": 0.3348672398276173,
+        "se": 0.18530205753045328,
+        "ci_low": -0.02832479293207113,
+        "ci_high": 0.6980592725873057,
+        "percent": 39.77548067349328,
+        "declaration": "Importer"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "year": 1936,
+        "estimate": 0.47981995679798445,
+        "se": 0.20535799731894355,
+        "ci_low": 0.07731828205285507,
+        "ci_high": 0.8823216315431138,
+        "percent": 61.57834651742293,
+        "declaration": "Importer"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "year": 1937,
+        "estimate": 0.7479962735289273,
+        "se": 0.22749311743865294,
+        "ci_low": 0.3021097633491675,
+        "ci_high": 1.1938827837086872,
+        "percent": 111.27623745956848,
+        "declaration": "Importer"
+      }
+    ],
+    "export_hubs": [
+      {
+        "hub": "Germany",
+        "direction": "Hub exports to Balkans",
+        "estimate": 0.7604733640126123,
+        "se": 0.1607124061114434,
+        "ci_low": 0.44547704803418325,
+        "ci_high": 1.0754696799910415,
+        "percent": 113.92886431119376,
+        "declaration": "Exporter"
+      },
+      {
+        "hub": "Germany",
+        "direction": "Balkan exports to hub",
+        "estimate": 0.5369384860865863,
+        "se": 0.1337887873254768,
+        "ci_low": 0.2747124629286518,
+        "ci_high": 0.7991645092445209,
+        "percent": 71.07613170526183,
+        "declaration": "Exporter"
+      },
+      {
+        "hub": "United Kingdom",
+        "direction": "Hub exports to Balkans",
+        "estimate": 0.13843670673313477,
+        "se": 0.18038321693668263,
+        "ci_low": -0.21511439846276317,
+        "ci_high": 0.49198781192903274,
+        "percent": 14.847698840919321,
+        "declaration": "Exporter"
+      },
+      {
+        "hub": "United Kingdom",
+        "direction": "Balkan exports to hub",
+        "estimate": 0.3423640464070864,
+        "se": 0.23393107470189692,
+        "ci_low": -0.11614086000863155,
+        "ci_high": 0.8008689528228043,
+        "percent": 40.82728808888583,
+        "declaration": "Exporter"
+      },
+      {
+        "hub": "France",
+        "direction": "Hub exports to Balkans",
+        "estimate": 0.25397913257908156,
+        "se": 0.33671242837256404,
+        "ci_low": -0.4059772270311439,
+        "ci_high": 0.913935492189307,
+        "percent": 28.914490285781103,
+        "declaration": "Exporter"
+      },
+      {
+        "hub": "France",
+        "direction": "Balkan exports to hub",
+        "estimate": -0.247545073071689,
+        "se": 0.1417462946833509,
+        "ci_low": -0.5253678106510568,
+        "ci_high": 0.03027766450767877,
+        "percent": -21.928496920668106,
+        "declaration": "Exporter"
+      },
+      {
+        "hub": "Italy",
+        "direction": "Hub exports to Balkans",
+        "estimate": 0.19916008861031056,
+        "se": 0.33734118489759995,
+        "ci_low": -0.4620286337889854,
+        "ci_high": 0.8603488110096065,
+        "percent": 22.037731877158716,
+        "declaration": "Exporter"
+      },
+      {
+        "hub": "Italy",
+        "direction": "Balkan exports to hub",
+        "estimate": -0.3616528449082523,
+        "se": 0.23909125676909174,
+        "ci_low": -0.8302717081756721,
+        "ci_high": 0.10696601835916753,
+        "percent": -30.347587222727114,
+        "declaration": "Exporter"
+      }
+    ],
+    "import_hubs": [
+      {
+        "hub": "Germany",
+        "direction": "Hub exports to Balkans",
+        "estimate": 0.827651636198849,
+        "se": 0.16680645810251676,
+        "ci_low": 0.5007109783179161,
+        "ci_high": 1.154592294079782,
+        "percent": 128.79395122143796,
+        "declaration": "Importer"
+      },
+      {
+        "hub": "Germany",
+        "direction": "Balkan exports to hub",
+        "estimate": 0.5324764367784123,
+        "se": 0.2002644890724883,
+        "ci_low": 0.13995803819633518,
+        "ci_high": 0.9249948353604893,
+        "percent": 70.31448209290009,
+        "declaration": "Importer"
+      },
+      {
+        "hub": "United Kingdom",
+        "direction": "Hub exports to Balkans",
+        "estimate": -0.06316810520907004,
+        "se": 0.16457215594271532,
+        "ci_low": -0.38572953085679207,
+        "ci_high": 0.25939332043865193,
+        "percent": -6.121435433358813,
+        "declaration": "Importer"
+      },
+      {
+        "hub": "United Kingdom",
+        "direction": "Balkan exports to hub",
+        "estimate": 0.4858831953115018,
+        "se": 0.2684862879633159,
+        "ci_low": -0.0403499290965974,
+        "ci_high": 1.012116319719601,
+        "percent": 62.561010623945926,
+        "declaration": "Importer"
+      },
+      {
+        "hub": "France",
+        "direction": "Hub exports to Balkans",
+        "estimate": -0.2553415460181772,
+        "se": 0.198743771992003,
+        "ci_low": -0.6448793391225031,
+        "ci_high": 0.13419624708614863,
+        "percent": -22.53481264899313,
+        "declaration": "Importer"
+      },
+      {
+        "hub": "France",
+        "direction": "Balkan exports to hub",
+        "estimate": 0.04390776036565796,
+        "se": 0.117149386773589,
+        "ci_low": -0.18570503771057648,
+        "ci_high": 0.2735205584418924,
+        "percent": 4.488597054343169,
+        "declaration": "Importer"
+      },
+      {
+        "hub": "Italy",
+        "direction": "Hub exports to Balkans",
+        "estimate": -0.14210874900492623,
+        "se": 0.2595254408373177,
+        "ci_low": -0.6507786130460689,
+        "ci_high": 0.36656111503621647,
+        "percent": -13.2473091332173,
+        "declaration": "Importer"
+      },
+      {
+        "hub": "Italy",
+        "direction": "Balkan exports to hub",
+        "estimate": -0.11629913749871758,
+        "se": 0.3667258673669396,
+        "ci_low": -0.8350818375379191,
+        "ci_high": 0.602483562540484,
+        "percent": -10.97911113961615,
+        "declaration": "Importer"
+      }
+    ],
+    "export_diagnostics": [
+      {
+        "direction": "Germany exports to Balkans",
+        "pretrend_wald": 5.658591953875479,
+        "pretrend_df": 5,
+        "pretrend_p": 0.3408688361184119,
+        "linear_trend": 0.1288965595128974,
+        "linear_trend_se": 0.031066741958814783,
+        "post1934_level_shift": 0.10354484036193701,
+        "post1934_level_shift_se": 0.11372448098920286,
+        "post1934_implied_percent": 10.909552449481952,
+        "declaration": "Exporter"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "pretrend_wald": 2.2270439041785743,
+        "pretrend_df": 5,
+        "pretrend_p": 0.8169201725606884,
+        "linear_trend": 0.020838924555103663,
+        "linear_trend_se": 0.0321445215606456,
+        "post1934_level_shift": 0.4407677195321826,
+        "post1934_level_shift_se": 0.10506158458686209,
+        "post1934_implied_percent": 55.38997198654678,
+        "declaration": "Exporter"
+      }
+    ],
+    "import_diagnostics": [
+      {
+        "direction": "Germany exports to Balkans",
+        "pretrend_wald": 18.367567424655636,
+        "pretrend_df": 5,
+        "pretrend_p": 0.002519325085775826,
+        "linear_trend": 0.10191115185175999,
+        "linear_trend_se": 0.02500655549747428,
+        "post1934_level_shift": 0.3774814765140293,
+        "post1934_level_shift_se": 0.11975100443172418,
+        "post1934_implied_percent": 45.86064250684358,
+        "declaration": "Importer"
+      },
+      {
+        "direction": "Balkan exports to Germany",
+        "pretrend_wald": 28.609978227517477,
+        "pretrend_df": 5,
+        "pretrend_p": 2.7651362756060372e-05,
+        "linear_trend": 0.08685903174891116,
+        "linear_trend_se": 0.04013237186745183,
+        "post1934_level_shift": 0.14968175372264406,
+        "post1934_level_shift_se": 0.13993780146494247,
+        "post1934_implied_percent": 16.146455213507792,
+        "declaration": "Importer"
+      }
+    ]
+  },
+  "full_unbalanced": {
+    "export": {
+      "estimate": -0.36382646141061503,
+      "se": 0.034644831140892396,
+      "ci_low": -0.4317303304467641,
+      "ci_high": -0.29592259237446594,
+      "nobs": 3776,
+      "declaration": "Exporter"
+    },
+    "import": {
+      "estimate": -0.3210039880264575,
+      "se": 0.032719458701911626,
+      "ci_low": -0.3851341270822043,
+      "ci_high": -0.25687384897071075,
+      "nobs": 3810,
+      "declaration": "Importer"
+    }
+  },
+  "external_shares": {
+    "export": [
+      {
+        "year": 1927,
+        "reporter": "Austria",
+        "external_share": 0.22140414741045833,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1927,
+        "reporter": "Belgium",
+        "external_share": 0.32277113509600885,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1927,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.23817052889537338,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1927,
+        "reporter": "Denmark",
+        "external_share": 0.05550033848038427,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1927,
+        "reporter": "Finland",
+        "external_share": 0.11699469923654082,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1927,
+        "reporter": "France",
+        "external_share": 0.3468994793641348,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1927,
+        "reporter": "Germany",
+        "external_share": 0.3246925771959456,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1927,
+        "reporter": "Greece",
+        "external_share": 0.308275324472692,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1927,
+        "reporter": "Hungary",
+        "external_share": 0.1189837383646919,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1927,
+        "reporter": "Italy",
+        "external_share": 0.43696069306269447,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1927,
+        "reporter": "Netherlands",
+        "external_share": 0.2568025063521199,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1927,
+        "reporter": "Norway",
+        "external_share": 0.3232858348740687,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1927,
+        "reporter": "Poland",
+        "external_share": 0.0690078894836047,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1927,
+        "reporter": "Romania",
+        "external_share": 0.1864022968811212,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1927,
+        "reporter": "Spain",
+        "external_share": 0.34000899866563317,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1927,
+        "reporter": "Sweden",
+        "external_share": 0.2310334532776851,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1927,
+        "reporter": "Switzerland",
+        "external_share": 0.3210779686148524,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1927,
+        "reporter": "USSR",
+        "external_share": 0.2538526701300252,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1927,
+        "reporter": "United Kingdom",
+        "external_share": 0.7358877589443238,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1928,
+        "reporter": "Austria",
+        "external_share": 0.22317450977539854,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1928,
+        "reporter": "Belgium",
+        "external_share": 0.3245752647143326,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1928,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.2577200608075991,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1928,
+        "reporter": "Denmark",
+        "external_share": 0.060303286743171425,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1928,
+        "reporter": "Finland",
+        "external_share": 0.14124774509781945,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1928,
+        "reporter": "France",
+        "external_share": 0.37319364005534206,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1928,
+        "reporter": "Germany",
+        "external_share": 0.32101482529699044,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1928,
+        "reporter": "Greece",
+        "external_share": 0.27414842229677294,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1928,
+        "reporter": "Hungary",
+        "external_share": 0.13915972913518937,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1928,
+        "reporter": "Italy",
+        "external_share": 0.4624271365188448,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1928,
+        "reporter": "Netherlands",
+        "external_share": 0.2685861031734095,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1928,
+        "reporter": "Norway",
+        "external_share": 0.31729123532865133,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1928,
+        "reporter": "Poland",
+        "external_share": 0.07718420727355368,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1928,
+        "reporter": "Romania",
+        "external_share": 0.16274509803921566,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1928,
+        "reporter": "Spain",
+        "external_share": 0.3051973090637964,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1928,
+        "reporter": "Sweden",
+        "external_share": 0.24586305141922338,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1928,
+        "reporter": "Switzerland",
+        "external_share": 0.3162007818458834,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1928,
+        "reporter": "USSR",
+        "external_share": 0.3578811206973411,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1928,
+        "reporter": "United Kingdom",
+        "external_share": 0.7380894857368718,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1929,
+        "reporter": "Austria",
+        "external_share": 0.22322298377884398,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1929,
+        "reporter": "Belgium",
+        "external_share": 0.3237633767456457,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1929,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.27967461827406215,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1929,
+        "reporter": "Denmark",
+        "external_share": 0.06390455030237618,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1929,
+        "reporter": "Finland",
+        "external_share": 0.1543131124864574,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1929,
+        "reporter": "France",
+        "external_share": 0.393023454795668,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1929,
+        "reporter": "Germany",
+        "external_share": 0.31662849514203073,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1929,
+        "reporter": "Greece",
+        "external_share": 0.23070465023458187,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1929,
+        "reporter": "Hungary",
+        "external_share": 0.14834292371983748,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1929,
+        "reporter": "Italy",
+        "external_share": 0.47310024187046495,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1929,
+        "reporter": "Netherlands",
+        "external_share": 0.27267599118598507,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1929,
+        "reporter": "Norway",
+        "external_share": 0.2904614903875561,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1929,
+        "reporter": "Poland",
+        "external_share": 0.09808294708107035,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1929,
+        "reporter": "Romania",
+        "external_share": 0.18083563535911606,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1929,
+        "reporter": "Spain",
+        "external_share": 0.36359828069597544,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1929,
+        "reporter": "Sweden",
+        "external_share": 0.24196431564850773,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1929,
+        "reporter": "Switzerland",
+        "external_share": 0.3099765164852658,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1929,
+        "reporter": "USSR",
+        "external_share": 0.3299954375361783,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1929,
+        "reporter": "United Kingdom",
+        "external_share": 0.7252327925314219,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "reporter": "Austria",
+        "external_share": 0.20852512155591574,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "reporter": "Belgium",
+        "external_share": 0.2833644646924829,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.2860268971042692,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "reporter": "Denmark",
+        "external_share": 0.0493118811881188,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "reporter": "Finland",
+        "external_share": 0.1677638786084381,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "reporter": "France",
+        "external_share": 0.3929097700478581,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "reporter": "Germany",
+        "external_share": 0.28131372549019606,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "reporter": "Greece",
+        "external_share": 0.2221139325091881,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "reporter": "Hungary",
+        "external_share": 0.12389996709443907,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "reporter": "Italy",
+        "external_share": 0.46067967654096875,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "reporter": "Netherlands",
+        "external_share": 0.24743397324025596,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "reporter": "Norway",
+        "external_share": 0.26185380116959067,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "reporter": "Poland",
+        "external_share": 0.09629182079736953,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "reporter": "Romania",
+        "external_share": 0.12642100834443581,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "reporter": "Spain",
+        "external_share": 0.35419536019536024,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "reporter": "Sweden",
+        "external_share": 0.22670967741935488,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "reporter": "Switzerland",
+        "external_share": 0.2785520361990951,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "reporter": "USSR",
+        "external_share": 0.30596217676572757,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1930,
+        "reporter": "United Kingdom",
+        "external_share": 0.6939754730203224,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "reporter": "Austria",
+        "external_share": 0.20163206816421375,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "reporter": "Belgium",
+        "external_share": 0.2527308654758823,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.275647121454103,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "reporter": "Denmark",
+        "external_share": 0.039261065266316564,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "reporter": "Finland",
+        "external_share": 0.17726856630020194,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "reporter": "France",
+        "external_share": 0.4016497568668682,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "reporter": "Germany",
+        "external_share": 0.24006729867694554,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "reporter": "Greece",
+        "external_share": 0.2544719314938154,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "reporter": "Hungary",
+        "external_share": 0.1263562412342215,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "reporter": "Italy",
+        "external_share": 0.4138883447600392,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "reporter": "Netherlands",
+        "external_share": 0.21275609756097558,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "reporter": "Norway",
+        "external_share": 0.22619734304692518,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "reporter": "Poland",
+        "external_share": 0.09745290047897814,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "reporter": "Romania",
+        "external_share": 0.10998004234806502,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "reporter": "Spain",
+        "external_share": 0.27687878787878784,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "reporter": "Sweden",
+        "external_share": 0.2449019607843137,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "reporter": "Switzerland",
+        "external_share": 0.24815789473684213,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "reporter": "USSR",
+        "external_share": 0.29834911242603557,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1931,
+        "reporter": "United Kingdom",
+        "external_share": 0.6769400921658986,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "reporter": "Austria",
+        "external_share": 0.21036649214659686,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "reporter": "Belgium",
+        "external_share": 0.27960645331922773,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.29983092309771586,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "reporter": "Denmark",
+        "external_share": 0.040130626654898416,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "reporter": "Finland",
+        "external_share": 0.19255841071042967,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "reporter": "France",
+        "external_share": 0.47935397107333166,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "reporter": "Germany",
+        "external_share": 0.23907370622059587,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "reporter": "Greece",
+        "external_share": 0.17996869090144996,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "reporter": "Hungary",
+        "external_share": 0.13600242130750595,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "reporter": "Italy",
+        "external_share": 0.40715091015854377,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "reporter": "Netherlands",
+        "external_share": 0.2228605200945627,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "reporter": "Norway",
+        "external_share": 0.2686341892367218,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "reporter": "Poland",
+        "external_share": 0.09511016792766191,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "reporter": "Romania",
+        "external_share": 0.12383788652056438,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "reporter": "Spain",
+        "external_share": 0.2798735012798059,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "reporter": "Sweden",
+        "external_share": 0.25721541710665263,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "reporter": "Switzerland",
+        "external_share": 0.2576629213483146,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "reporter": "USSR",
+        "external_share": 0.3328457122977909,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1932,
+        "reporter": "United Kingdom",
+        "external_share": 0.6885479452054795,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "reporter": "Austria",
+        "external_share": 0.21554838709677415,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "reporter": "Belgium",
+        "external_share": 0.29022004479283314,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.2790298835049806,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "reporter": "Denmark",
+        "external_share": 0.046761747732893655,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "reporter": "Finland",
+        "external_share": 0.18467421668554174,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "reporter": "France",
+        "external_share": 0.488159250839017,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "reporter": "Germany",
+        "external_share": 0.2667798321730648,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "reporter": "Greece",
+        "external_share": 0.23682182454775336,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "reporter": "Hungary",
+        "external_share": 0.19074674163046257,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "reporter": "Italy",
+        "external_share": 0.4030869565217391,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "reporter": "Netherlands",
+        "external_share": 0.22178236914600546,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "reporter": "Norway",
+        "external_share": 0.2958838501523571,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "reporter": "Poland",
+        "external_share": 0.10650354314297628,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "reporter": "Romania",
+        "external_share": 0.17200162303295463,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "reporter": "Spain",
+        "external_share": 0.276181277860327,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "reporter": "Sweden",
+        "external_share": 0.2654745134383688,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "reporter": "Switzerland",
+        "external_share": 0.24656858147713956,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "reporter": "USSR",
+        "external_share": 0.36514666128706874,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1933,
+        "reporter": "United Kingdom",
+        "external_share": 0.6964319108453384,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "reporter": "Austria",
+        "external_share": 0.2019206534422403,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "reporter": "Belgium",
+        "external_share": 0.2885324392895977,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.29697585071350163,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "reporter": "Denmark",
+        "external_share": 0.05926094003241489,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "reporter": "Finland",
+        "external_share": 0.1650414391262448,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "reporter": "France",
+        "external_share": 0.4651596638655462,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "reporter": "Germany",
+        "external_share": 0.29201607871370294,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "reporter": "Greece",
+        "external_share": 0.293288637194008,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "reporter": "Hungary",
+        "external_share": 0.13198618307426602,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "reporter": "Italy",
+        "external_share": 0.37405666156202144,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "reporter": "Netherlands",
+        "external_share": 0.19999775217757798,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "reporter": "Norway",
+        "external_share": 0.28042348262147665,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "reporter": "Poland",
+        "external_share": 0.17101199630882802,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "reporter": "Romania",
+        "external_share": 0.18200820152314,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "reporter": "Spain",
+        "external_share": 0.2848775510204081,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "reporter": "Sweden",
+        "external_share": 0.23784080370942817,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "reporter": "Switzerland",
+        "external_share": 0.224579770223854,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "reporter": "USSR",
+        "external_share": 0.3189677265120727,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1934,
+        "reporter": "United Kingdom",
+        "external_share": 0.702929292929293,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "reporter": "Austria",
+        "external_share": 0.2072625698324022,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "reporter": "Belgium",
+        "external_share": 0.30477068088800696,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.28976330690826724,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "reporter": "Denmark",
+        "external_share": 0.05945540647198111,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "reporter": "Finland",
+        "external_share": 0.15591027078993747,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "reporter": "France",
+        "external_share": 0.48032576148683526,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "reporter": "Germany",
+        "external_share": 0.33045199063231845,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "reporter": "Greece",
+        "external_share": 0.2845694972539079,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "reporter": "Hungary",
+        "external_share": 0.12683720930232567,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "reporter": "Italy",
+        "external_share": 0.44531767850324555,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "reporter": "Netherlands",
+        "external_share": 0.2400376240556955,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "reporter": "Norway",
+        "external_share": 0.2617800363576268,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "reporter": "Poland",
+        "external_share": 0.17975675675675673,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "reporter": "Romania",
+        "external_share": 0.1418130818811172,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "reporter": "Spain",
+        "external_share": 0.3220319619177151,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "reporter": "Sweden",
+        "external_share": 0.2680195776167721,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "reporter": "Switzerland",
+        "external_share": 0.22884914841849147,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "reporter": "USSR",
+        "external_share": 0.3105895481763745,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1935,
+        "reporter": "United Kingdom",
+        "external_share": 0.7153973696571161,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "reporter": "Austria",
+        "external_share": 0.191639352873201,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "reporter": "Belgium",
+        "external_share": 0.31528766776399086,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.338218018914883,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "reporter": "Denmark",
+        "external_share": 0.06573913043478263,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "reporter": "Finland",
+        "external_share": 0.16491983940191057,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "reporter": "France",
+        "external_share": 0.5155646785437645,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "reporter": "Germany",
+        "external_share": 0.36283892617449665,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "reporter": "Greece",
+        "external_share": 0.25582132682132686,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "reporter": "Hungary",
+        "external_share": 0.13069009080142124,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "reporter": "Italy",
+        "external_share": 0.5617250766179918,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "reporter": "Netherlands",
+        "external_share": 0.26943224768797747,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "reporter": "Norway",
+        "external_share": 0.2623561004086399,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "reporter": "Poland",
+        "external_share": 0.18306743324887942,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "reporter": "Romania",
+        "external_share": 0.15205220476431835,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "reporter": "Spain",
+        "external_share": 0.26875848391361834,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "reporter": "Sweden",
+        "external_share": 0.2509935663593553,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "reporter": "Switzerland",
+        "external_share": 0.26133666061705985,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "reporter": "USSR",
+        "external_share": 0.33907291862874367,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1936,
+        "reporter": "United Kingdom",
+        "external_share": 0.7305839697688405,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1937,
+        "reporter": "Austria",
+        "external_share": 0.21648985126140197,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1937,
+        "reporter": "Belgium",
+        "external_share": 0.3243911271359148,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1937,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.35723454727697956,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1937,
+        "reporter": "Denmark",
+        "external_share": 0.07876736775015936,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1937,
+        "reporter": "Finland",
+        "external_share": 0.1551535181236674,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1937,
+        "reporter": "France",
+        "external_share": 0.4755955135970592,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1937,
+        "reporter": "Germany",
+        "external_share": 0.38414667568939265,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1937,
+        "reporter": "Greece",
+        "external_share": 0.2999518576661434,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1937,
+        "reporter": "Hungary",
+        "external_share": 0.1526258503401361,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1937,
+        "reporter": "Italy",
+        "external_share": 0.5566561242093158,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1937,
+        "reporter": "Netherlands",
+        "external_share": 0.28375711159737416,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1937,
+        "reporter": "Norway",
+        "external_share": 0.23343896514028906,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1937,
+        "reporter": "Poland",
+        "external_share": 0.22630280217482224,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1937,
+        "reporter": "Romania",
+        "external_share": 0.1813900152052711,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1937,
+        "reporter": "Sweden",
+        "external_share": 0.25249790041991604,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1937,
+        "reporter": "Switzerland",
+        "external_share": 0.30852336521265833,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1937,
+        "reporter": "USSR",
+        "external_share": 0.2888747369310103,
+        "declaration": "Exporter"
+      },
+      {
+        "year": 1937,
+        "reporter": "United Kingdom",
+        "external_share": 0.7232136534769491,
+        "declaration": "Exporter"
+      }
+    ],
+    "import": [
+      {
+        "year": 1927,
+        "reporter": "Austria",
+        "external_share": 0.21095067869889517,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1927,
+        "reporter": "Belgium",
+        "external_share": 0.35624551371146096,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1927,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.3607486130436254,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1927,
+        "reporter": "Denmark",
+        "external_share": 0.28598196624825023,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1927,
+        "reporter": "Finland",
+        "external_share": 0.20688399846473804,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1927,
+        "reporter": "France",
+        "external_share": 0.5585934484725718,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1927,
+        "reporter": "Germany",
+        "external_share": 0.5263970048343201,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1927,
+        "reporter": "Greece",
+        "external_share": 0.4065667869761088,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1927,
+        "reporter": "Hungary",
+        "external_share": 0.10296662094511932,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1927,
+        "reporter": "Italy",
+        "external_share": 0.5446796925613994,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1927,
+        "reporter": "Netherlands",
+        "external_share": 0.39271342057555014,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1927,
+        "reporter": "Norway",
+        "external_share": 0.2592768835041328,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1927,
+        "reporter": "Poland",
+        "external_share": 0.22516995185292243,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1927,
+        "reporter": "Romania",
+        "external_share": 0.06741897057260893,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1927,
+        "reporter": "Spain",
+        "external_share": 0.48785532393664566,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1927,
+        "reporter": "Sweden",
+        "external_share": 0.23837393932202444,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1927,
+        "reporter": "Switzerland",
+        "external_share": 0.27783356619135546,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1927,
+        "reporter": "USSR",
+        "external_share": 0.23302191128846683,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1927,
+        "reporter": "United Kingdom",
+        "external_share": 0.6382299678287511,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1928,
+        "reporter": "Austria",
+        "external_share": 0.21037986619822324,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1928,
+        "reporter": "Belgium",
+        "external_share": 0.3496778138805179,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1928,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.3385956894984211,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1928,
+        "reporter": "Denmark",
+        "external_share": 0.2752384859676016,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1928,
+        "reporter": "Finland",
+        "external_share": 0.20669419625112329,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1928,
+        "reporter": "France",
+        "external_share": 0.5674591301513716,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1928,
+        "reporter": "Germany",
+        "external_share": 0.545789471132395,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1928,
+        "reporter": "Greece",
+        "external_share": 0.417005263721799,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1928,
+        "reporter": "Hungary",
+        "external_share": 0.12430876989947659,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1928,
+        "reporter": "Italy",
+        "external_share": 0.5589062300950862,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1928,
+        "reporter": "Netherlands",
+        "external_share": 0.3866664475634054,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1928,
+        "reporter": "Norway",
+        "external_share": 0.2541701931185574,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1928,
+        "reporter": "Poland",
+        "external_share": 0.24158151952135587,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1928,
+        "reporter": "Romania",
+        "external_share": 0.09266944786827214,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1928,
+        "reporter": "Spain",
+        "external_share": 0.5082494932597136,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1928,
+        "reporter": "Sweden",
+        "external_share": 0.2609808020535268,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1928,
+        "reporter": "Switzerland",
+        "external_share": 0.27196830231575264,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1928,
+        "reporter": "USSR",
+        "external_share": 0.5383933608904368,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1928,
+        "reporter": "United Kingdom",
+        "external_share": 0.6408739997117123,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1929,
+        "reporter": "Austria",
+        "external_share": 0.19640409619498922,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1929,
+        "reporter": "Belgium",
+        "external_share": 0.36081338176902933,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1929,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.32541624974984995,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1929,
+        "reporter": "Denmark",
+        "external_share": 0.24766830399705608,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1929,
+        "reporter": "Finland",
+        "external_share": 0.17854534448974801,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1929,
+        "reporter": "France",
+        "external_share": 0.5580045000944676,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1929,
+        "reporter": "Germany",
+        "external_share": 0.5164292407228378,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1929,
+        "reporter": "Greece",
+        "external_share": 0.4230225643704949,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1929,
+        "reporter": "Hungary",
+        "external_share": 0.14015497270369282,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1929,
+        "reporter": "Italy",
+        "external_share": 0.5110989062573346,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1929,
+        "reporter": "Netherlands",
+        "external_share": 0.35293109225212416,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1929,
+        "reporter": "Norway",
+        "external_share": 0.22350034587624157,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1929,
+        "reporter": "Poland",
+        "external_share": 0.24145952435597506,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1929,
+        "reporter": "Romania",
+        "external_share": 0.11286148238153093,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1929,
+        "reporter": "Spain",
+        "external_share": 0.47490559102157104,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1929,
+        "reporter": "Sweden",
+        "external_share": 0.24629605561364853,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1929,
+        "reporter": "Switzerland",
+        "external_share": 0.27258181972317497,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1929,
+        "reporter": "USSR",
+        "external_share": 0.5318735255045122,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1929,
+        "reporter": "United Kingdom",
+        "external_share": 0.6362543663140614,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "reporter": "Austria",
+        "external_share": 0.19937273064097816,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "reporter": "Belgium",
+        "external_share": 0.3103591701298283,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.30415685650652236,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "reporter": "Denmark",
+        "external_share": 0.21035858877964142,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "reporter": "Finland",
+        "external_share": 0.1859314024390244,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "reporter": "France",
+        "external_share": 0.478844612772128,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "reporter": "Germany",
+        "external_share": 0.4899518906956606,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "reporter": "Greece",
+        "external_share": 0.38827708095781077,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "reporter": "Hungary",
+        "external_share": 0.14859334386007528,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "reporter": "Italy",
+        "external_share": 0.46734887876866316,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "reporter": "Netherlands",
+        "external_share": 0.30099421009098426,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "reporter": "Norway",
+        "external_share": 0.18926760563380274,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "reporter": "Poland",
+        "external_share": 0.23855832591273374,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "reporter": "Romania",
+        "external_share": 0.17325811491060583,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "reporter": "Spain",
+        "external_share": 0.4519411764705882,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "reporter": "Sweden",
+        "external_share": 0.232389423076923,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "reporter": "Switzerland",
+        "external_share": 0.23311111111111116,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "reporter": "USSR",
+        "external_share": 0.4833502077823951,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1930,
+        "reporter": "United Kingdom",
+        "external_share": 0.6002958938459931,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "reporter": "Austria",
+        "external_share": 0.18835446552521984,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "reporter": "Belgium",
+        "external_share": 0.29552065081351686,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.30669926277434123,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "reporter": "Denmark",
+        "external_share": 0.21420819112627987,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "reporter": "Finland",
+        "external_share": 0.16369696969696967,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "reporter": "France",
+        "external_share": 0.4679101075676444,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "reporter": "Germany",
+        "external_share": 0.4914122194143006,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "reporter": "Greece",
+        "external_share": 0.3533254593175853,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "reporter": "Hungary",
+        "external_share": 0.16404301075268812,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "reporter": "Italy",
+        "external_share": 0.44280408829339524,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "reporter": "Netherlands",
+        "external_share": 0.30088114104595876,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "reporter": "Norway",
+        "external_share": 0.17781750638495464,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "reporter": "Poland",
+        "external_share": 0.25502997275204353,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "reporter": "Romania",
+        "external_share": 0.07759251031418601,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "reporter": "Spain",
+        "external_share": 0.4770068027210884,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "reporter": "Sweden",
+        "external_share": 0.22009243697478997,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "reporter": "Switzerland",
+        "external_share": 0.2242314526876943,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "reporter": "USSR",
+        "external_share": 0.3951628959276018,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1931,
+        "reporter": "United Kingdom",
+        "external_share": 0.5703797341359418,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "reporter": "Austria",
+        "external_share": 0.22165798987707885,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "reporter": "Belgium",
+        "external_share": 0.30046221623936853,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.37765787860208455,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "reporter": "Denmark",
+        "external_share": 0.22588168273444353,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "reporter": "Finland",
+        "external_share": 0.15905993599068957,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "reporter": "France",
+        "external_share": 0.5308432635534085,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "reporter": "Germany",
+        "external_share": 0.5201047782301265,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "reporter": "Greece",
+        "external_share": 0.29668301359420657,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "reporter": "Hungary",
+        "external_share": 0.15122517148821946,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "reporter": "Italy",
+        "external_share": 0.46626802128688916,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "reporter": "Netherlands",
+        "external_share": 0.31540492686682065,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "reporter": "Norway",
+        "external_share": 0.20010081112398603,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "reporter": "Poland",
+        "external_share": 0.30180974477958233,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "reporter": "Romania",
+        "external_share": 0.07306751443152348,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "reporter": "Spain",
+        "external_share": 0.5151164292302962,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "reporter": "Sweden",
+        "external_share": 0.22349783549783553,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "reporter": "Switzerland",
+        "external_share": 0.24444015882019288,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "reporter": "USSR",
+        "external_share": 0.2583352272727273,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1932,
+        "reporter": "United Kingdom",
+        "external_share": 0.6644543498309253,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "reporter": "Austria",
+        "external_share": 0.26500348432055754,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "reporter": "Belgium",
+        "external_share": 0.31794338384832377,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.3799795918367347,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "reporter": "Denmark",
+        "external_share": 0.17736334913112162,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "reporter": "Finland",
+        "external_share": 0.16276985743380856,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "reporter": "France",
+        "external_share": 0.5868721817734164,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "reporter": "Germany",
+        "external_share": 0.5233392397735699,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "reporter": "Greece",
+        "external_share": 0.33289753320683113,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "reporter": "Hungary",
+        "external_share": 0.18037939859245045,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "reporter": "Italy",
+        "external_share": 0.4621876433292864,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "reporter": "Netherlands",
+        "external_share": 0.2889023986765922,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "reporter": "Norway",
+        "external_share": 0.20575105231509327,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "reporter": "Poland",
+        "external_share": 0.33160943168077395,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "reporter": "Romania",
+        "external_share": 0.08061761199114292,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "reporter": "Spain",
+        "external_share": 0.48091800143437724,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "reporter": "Sweden",
+        "external_share": 0.21527737226277377,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "reporter": "Switzerland",
+        "external_share": 0.21394604767879544,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "reporter": "USSR",
+        "external_share": 0.2812326249282021,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1933,
+        "reporter": "United Kingdom",
+        "external_share": 0.6711762262342227,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "reporter": "Austria",
+        "external_share": 0.2565683553088133,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "reporter": "Belgium",
+        "external_share": 0.37272742832691486,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.347944931163955,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "reporter": "Denmark",
+        "external_share": 0.18145494830132936,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "reporter": "Finland",
+        "external_share": 0.1670201005025126,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "reporter": "France",
+        "external_share": 0.5940805299389531,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "reporter": "Germany",
+        "external_share": 0.5004691080656032,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "reporter": "Greece",
+        "external_share": 0.311024567788899,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "reporter": "Hungary",
+        "external_share": 0.14890255220417636,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "reporter": "Italy",
+        "external_share": 0.4399543973941368,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "reporter": "Netherlands",
+        "external_share": 0.3217267649041703,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "reporter": "Norway",
+        "external_share": 0.21701247965274018,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "reporter": "Poland",
+        "external_share": 0.3817230846269404,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "reporter": "Romania",
+        "external_share": 0.07236467559996973,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "reporter": "Spain",
+        "external_share": 0.47704678362573094,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "reporter": "Sweden",
+        "external_share": 0.21609776751347187,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "reporter": "Switzerland",
+        "external_share": 0.21000941094457992,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "reporter": "USSR",
+        "external_share": 0.37083304647160065,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1934,
+        "reporter": "United Kingdom",
+        "external_share": 0.6842075860041165,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "reporter": "Austria",
+        "external_share": 0.26855562924888077,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "reporter": "Belgium",
+        "external_share": 0.40622870572050895,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.3799786445202432,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "reporter": "Denmark",
+        "external_share": 0.14640601503759398,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "reporter": "Finland",
+        "external_share": 0.16208532934131736,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "reporter": "France",
+        "external_share": 0.6120305139696767,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "reporter": "Germany",
+        "external_share": 0.46111421014666987,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "reporter": "Greece",
+        "external_share": 0.33125952626158595,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "reporter": "Hungary",
+        "external_share": 0.17142803877703217,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "reporter": "Italy",
+        "external_share": 0.4253478818998716,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "reporter": "Netherlands",
+        "external_share": 0.36010310930654976,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "reporter": "Norway",
+        "external_share": 0.21169955156950682,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "reporter": "Poland",
+        "external_share": 0.36779154078549847,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "reporter": "Romania",
+        "external_share": 0.07831120943952807,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "reporter": "Spain",
+        "external_share": 0.3997142857142857,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "reporter": "Sweden",
+        "external_share": 0.21997581792318632,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "reporter": "Switzerland",
+        "external_share": 0.22264232837216558,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "reporter": "USSR",
+        "external_share": 0.4335617232808616,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1935,
+        "reporter": "United Kingdom",
+        "external_share": 0.6838775510204083,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "reporter": "Austria",
+        "external_share": 0.26673839257124565,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "reporter": "Belgium",
+        "external_share": 0.4291280633867699,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.37476879343019587,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "reporter": "Denmark",
+        "external_share": 0.13468371467025564,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "reporter": "Finland",
+        "external_share": 0.17696420160150728,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "reporter": "France",
+        "external_share": 0.6409281498386716,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "reporter": "Germany",
+        "external_share": 0.48874158368895215,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "reporter": "Greece",
+        "external_share": 0.3434905580489457,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "reporter": "Hungary",
+        "external_share": 0.16344341801385687,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "reporter": "Italy",
+        "external_share": 0.42441861235303857,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "reporter": "Netherlands",
+        "external_share": 0.38790063944909003,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "reporter": "Norway",
+        "external_share": 0.20599784250269682,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "reporter": "Poland",
+        "external_share": 0.3778066573649591,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "reporter": "Romania",
+        "external_share": 0.095123595505618,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "reporter": "Spain",
+        "external_share": 0.527298596005537,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "reporter": "Sweden",
+        "external_share": 0.23323363793529261,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "reporter": "Switzerland",
+        "external_share": 0.2279974731522426,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "reporter": "USSR",
+        "external_share": 0.4197337444132685,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1936,
+        "reporter": "United Kingdom",
+        "external_share": 0.6917115592077592,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "reporter": "Austria",
+        "external_share": 0.30092563802710326,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "reporter": "Belgium",
+        "external_share": 0.4601754920589395,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "reporter": "Czechoslovakia",
+        "external_share": 0.39622222222222225,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "reporter": "Denmark",
+        "external_share": 0.1443034647550776,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "reporter": "Finland",
+        "external_share": 0.16297614442295294,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "reporter": "France",
+        "external_share": 0.612818923828171,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "reporter": "Germany",
+        "external_share": 0.5198332114118508,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "reporter": "Greece",
+        "external_share": 0.28150933964746117,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "reporter": "Hungary",
+        "external_share": 0.1680057899090157,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "reporter": "Italy",
+        "external_share": 0.49387634485726584,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "reporter": "Netherlands",
+        "external_share": 0.4050375459647765,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "reporter": "Norway",
+        "external_share": 0.20230277713313216,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "reporter": "Poland",
+        "external_share": 0.3934418400701586,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "reporter": "Romania",
+        "external_share": 0.10381390189795414,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "reporter": "Spain",
+        "external_share": 0.347,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "reporter": "Sweden",
+        "external_share": 0.24614763362373437,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "reporter": "Switzerland",
+        "external_share": 0.2677618415227977,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "reporter": "USSR",
+        "external_share": 0.4912301389370404,
+        "declaration": "Importer"
+      },
+      {
+        "year": 1937,
+        "reporter": "United Kingdom",
+        "external_share": 0.697658566795075,
+        "declaration": "Importer"
+      }
+    ]
+  },
+  "revised": {
+    "estimand": "Conditional prediction on positive-total1927-1929 recorded support, in original reporter world shares; current margins of that support refitted; no smoothing.",
+    "newly_positive_caveat": "Previously zero recorded cells need not represent new economic links because source rounding and reporting thresholds can censor small flows.",
+    "uncertainty": "Delete-country jackknife sensitivity: remove every incident named-country dyad, keep the fixed External category unchanged; intervals are point estimate plus/minus1.96 jackknife standard errors.",
+    "matched_comparison": "Internal common18-country network excluding Spain; intersection of positive-pre supports of both declarations; same directed support but original differing reporting/normalization conventions.",
+    "methods": {
+      "Exporter": {
+        "training_years": [
+          1927,
+          1928,
+          1929
+        ],
+        "established_pairs_including_external": 350,
+        "established_internal_pairs": 331,
+        "preperiod_zero_pairs": 11,
+        "geography_beta_on_established_internal_support": [
+          -0.8848651977074107,
+          0.6627267477573571
+        ],
+        "geography_se_on_established_internal_support": [
+          0.11689520947263712,
+          0.13456726195471302
+        ]
+      },
+      "Importer": {
+        "training_years": [
+          1927,
+          1928,
+          1929
+        ],
+        "established_pairs_including_external": 350,
+        "established_internal_pairs": 331,
+        "preperiod_zero_pairs": 11,
+        "geography_beta_on_established_internal_support": [
+          -0.9976743207501838,
+          0.4126037750520318
+        ],
+        "geography_se_on_established_internal_support": [
+          0.0963228276803462,
+          0.1269704236806482
+        ]
+      }
+    },
+    "established_prediction": [
+      {
+        "year": 1930,
+        "score": 0.925753594177403,
+        "historical_deviance": 0.7200896033281414,
+        "margins_deviance": 9.69864595262308,
+        "tv_world_share": 0.06064265500990509,
+        "tv_conditional_on_support": 0.060668640392009913,
+        "supported_world_share_mean": 0.9997894736842105,
+        "reporter_margin_max_error": 3.552713678800501e-15,
+        "n_observations": 350,
+        "n_reporters": 19,
+        "declaration": "Exporter",
+        "jk_n_countries": 19,
+        "jk_se": 0.03194106034634731,
+        "jk_interval_low": 0.8631491158985622,
+        "jk_interval_high": 0.9883580724562437,
+        "delete_country_min": 0.9078246186820323,
+        "delete_country_max": 0.9378416015826508
+      },
+      {
+        "year": 1931,
+        "score": 0.83490721629566,
+        "historical_deviance": 1.5146253773800744,
+        "margins_deviance": 9.174388749132573,
+        "tv_world_share": 0.08785376858081669,
+        "tv_conditional_on_support": 0.0879230565932378,
+        "supported_world_share_mean": 0.9994736842105264,
+        "reporter_margin_max_error": 5.88418203051333e-15,
+        "n_observations": 350,
+        "n_reporters": 19,
+        "declaration": "Exporter",
+        "jk_n_countries": 19,
+        "jk_se": 0.06751855313781636,
+        "jk_interval_low": 0.7025708521455399,
+        "jk_interval_high": 0.9672435804457801,
+        "delete_country_min": 0.790570564083676,
+        "delete_country_max": 0.8518700704601947
+      },
+      {
+        "year": 1932,
+        "score": 0.7868918340159379,
+        "historical_deviance": 2.089885138676415,
+        "margins_deviance": 9.806687270879678,
+        "tv_world_share": 0.11458163108478459,
+        "tv_conditional_on_support": 0.11466807746003195,
+        "supported_world_share_mean": 0.9994736842105262,
+        "reporter_margin_max_error": 2.9976021664879227e-15,
+        "n_observations": 350,
+        "n_reporters": 19,
+        "declaration": "Exporter",
+        "jk_n_countries": 19,
+        "jk_se": 0.08204536526858772,
+        "jk_interval_low": 0.626082918089506,
+        "jk_interval_high": 0.9477007499423697,
+        "delete_country_min": 0.7384010638031995,
+        "delete_country_max": 0.812676855058213
+      },
+      {
+        "year": 1933,
+        "score": 0.7711452839751176,
+        "historical_deviance": 2.0139510825896627,
+        "margins_deviance": 8.800129259170234,
+        "tv_world_share": 0.1148816919962793,
+        "tv_conditional_on_support": 0.11493385211822811,
+        "supported_world_share_mean": 0.9996842105263157,
+        "reporter_margin_max_error": 3.4416913763379853e-15,
+        "n_observations": 350,
+        "n_reporters": 19,
+        "declaration": "Exporter",
+        "jk_n_countries": 19,
+        "jk_se": 0.09157233572875519,
+        "jk_interval_low": 0.5916635059467574,
+        "jk_interval_high": 0.9506270620034778,
+        "delete_country_min": 0.7083980618269445,
+        "delete_country_max": 0.7978009161334432
+      },
+      {
+        "year": 1934,
+        "score": 0.738588343594363,
+        "historical_deviance": 2.1723690541116154,
+        "margins_deviance": 8.310146089050875,
+        "tv_world_share": 0.11599062463627093,
+        "tv_conditional_on_support": 0.1161099828146814,
+        "supported_world_share_mean": 0.9991578947368422,
+        "reporter_margin_max_error": 9.769962616701378e-15,
+        "n_observations": 350,
+        "n_reporters": 19,
+        "declaration": "Exporter",
+        "jk_n_countries": 19,
+        "jk_se": 0.13047270000069788,
+        "jk_interval_low": 0.48286185159299516,
+        "jk_interval_high": 0.9943148355957308,
+        "delete_country_min": 0.661486442182297,
+        "delete_country_max": 0.7790619920595206
+      },
+      {
+        "year": 1935,
+        "score": 0.6677959198473938,
+        "historical_deviance": 2.904060229575295,
+        "margins_deviance": 8.741795790832079,
+        "tv_world_share": 0.12705789649995883,
+        "tv_conditional_on_support": 0.12723463311395639,
+        "supported_world_share_mean": 0.9988421052631578,
+        "reporter_margin_max_error": 8.770761894538737e-15,
+        "n_observations": 350,
+        "n_reporters": 19,
+        "declaration": "Exporter",
+        "jk_n_countries": 19,
+        "jk_se": 0.16985318264462534,
+        "jk_interval_low": 0.3348836818639282,
+        "jk_interval_high": 1.0007081578308594,
+        "delete_country_min": 0.545988670200041,
+        "delete_country_max": 0.7130861833718152
+      },
+      {
+        "year": 1936,
+        "score": 0.5741005230139377,
+        "historical_deviance": 3.7567385771521513,
+        "margins_deviance": 8.820716577858327,
+        "tv_world_share": 0.149861394647944,
+        "tv_conditional_on_support": 0.1501635927146477,
+        "supported_world_share_mean": 0.9984210526315791,
+        "reporter_margin_max_error": 7.771561172376096e-15,
+        "n_observations": 350,
+        "n_reporters": 19,
+        "declaration": "Exporter",
+        "jk_n_countries": 19,
+        "jk_se": 0.183127389687917,
+        "jk_interval_low": 0.21517083922562036,
+        "jk_interval_high": 0.9330302068022549,
+        "delete_country_min": 0.44341253248816626,
+        "delete_country_max": 0.6257222117175565
+      },
+      {
+        "year": 1937,
+        "score": 0.5608560699433078,
+        "historical_deviance": 3.460971614701042,
+        "margins_deviance": 7.881178305832989,
+        "tv_world_share": 0.14119921321839493,
+        "tv_conditional_on_support": 0.1414350718321017,
+        "supported_world_share_mean": 0.9985000000000002,
+        "reporter_margin_max_error": 4.551914400963142e-15,
+        "n_observations": 335,
+        "n_reporters": 18,
+        "declaration": "Exporter",
+        "jk_n_countries": 19,
+        "jk_se": 0.22987349058088086,
+        "jk_interval_low": 0.11030402840478137,
+        "jk_interval_high": 1.0114081114818343,
+        "delete_country_min": 0.3775663971930687,
+        "delete_country_max": 0.6266763519555022
+      },
+      {
+        "year": 1930,
+        "score": 0.9123894198255551,
+        "historical_deviance": 0.6617737001894854,
+        "margins_deviance": 7.553581986009012,
+        "tv_world_share": 0.055342683466988854,
+        "tv_conditional_on_support": 0.0553528378749549,
+        "supported_world_share_mean": 0.9997894736842105,
+        "reporter_margin_max_error": 3.3306690738754696e-16,
+        "n_observations": 350,
+        "n_reporters": 19,
+        "declaration": "Importer",
+        "jk_n_countries": 19,
+        "jk_se": 0.03971597329225856,
+        "jk_interval_low": 0.8345461121727283,
+        "jk_interval_high": 0.9902327274783819,
+        "delete_country_min": 0.8921676711071731,
+        "delete_country_max": 0.9344495491548949
+      },
+      {
+        "year": 1931,
+        "score": 0.8600084950550004,
+        "historical_deviance": 1.0468374202599882,
+        "margins_deviance": 7.477863893750365,
+        "tv_world_share": 0.07085416351151881,
+        "tv_conditional_on_support": 0.07087794376351611,
+        "supported_world_share_mean": 0.9996315789473685,
+        "reporter_margin_max_error": 4.440892098500626e-16,
+        "n_observations": 350,
+        "n_reporters": 19,
+        "declaration": "Importer",
+        "jk_n_countries": 19,
+        "jk_se": 0.05380148927577934,
+        "jk_interval_low": 0.7545575760744729,
+        "jk_interval_high": 0.9654594140355279,
+        "delete_country_min": 0.8277867131776908,
+        "delete_country_max": 0.8914205659282888
+      },
+      {
+        "year": 1932,
+        "score": 0.800831046996907,
+        "historical_deviance": 1.6371881447190868,
+        "margins_deviance": 8.220097158886317,
+        "tv_world_share": 0.09764409798125835,
+        "tv_conditional_on_support": 0.0977055391781774,
+        "supported_world_share_mean": 0.9993157894736842,
+        "reporter_margin_max_error": 2.220446049250313e-16,
+        "n_observations": 350,
+        "n_reporters": 19,
+        "declaration": "Importer",
+        "jk_n_countries": 19,
+        "jk_se": 0.07121872803592406,
+        "jk_interval_low": 0.6612423400464958,
+        "jk_interval_high": 0.9404197539473181,
+        "delete_country_min": 0.7677940872278146,
+        "delete_country_max": 0.8522388355999768
+      },
+      {
+        "year": 1933,
+        "score": 0.7606215917561691,
+        "historical_deviance": 1.8813732615234393,
+        "margins_deviance": 7.859410860511161,
+        "tv_world_share": 0.11310200999566905,
+        "tv_conditional_on_support": 0.1132420623526217,
+        "supported_world_share_mean": 0.9986315789473682,
+        "reporter_margin_max_error": 5.551115123125783e-16,
+        "n_observations": 350,
+        "n_reporters": 19,
+        "declaration": "Importer",
+        "jk_n_countries": 19,
+        "jk_se": 0.08766306705985188,
+        "jk_interval_low": 0.5888019803188593,
+        "jk_interval_high": 0.9324412031934788,
+        "delete_country_min": 0.7060027441356875,
+        "delete_country_max": 0.8127350763508858
+      },
+      {
+        "year": 1934,
+        "score": 0.6878922160309844,
+        "historical_deviance": 2.413259789606844,
+        "margins_deviance": 7.732135863187633,
+        "tv_world_share": 0.12056773131607192,
+        "tv_conditional_on_support": 0.12070606480239572,
+        "supported_world_share_mean": 0.998578947368421,
+        "reporter_margin_max_error": 2.220446049250313e-16,
+        "n_observations": 350,
+        "n_reporters": 19,
+        "declaration": "Importer",
+        "jk_n_countries": 19,
+        "jk_se": 0.14322148157485465,
+        "jk_interval_low": 0.4071781121442693,
+        "jk_interval_high": 0.9686063199176995,
+        "delete_country_min": 0.598418649634123,
+        "delete_country_max": 0.7707807985120135
+      },
+      {
+        "year": 1935,
+        "score": 0.5715849691633896,
+        "historical_deviance": 3.3572674178960717,
+        "margins_deviance": 7.836483727800092,
+        "tv_world_share": 0.13239675018456404,
+        "tv_conditional_on_support": 0.13263295264643213,
+        "supported_world_share_mean": 0.9984210526315789,
+        "reporter_margin_max_error": 3.3306690738754696e-16,
+        "n_observations": 350,
+        "n_reporters": 19,
+        "declaration": "Importer",
+        "jk_n_countries": 19,
+        "jk_se": 0.19417620436948949,
+        "jk_interval_low": 0.19099960859919024,
+        "jk_interval_high": 0.952170329727589,
+        "delete_country_min": 0.4807155585187439,
+        "delete_country_max": 0.6664064275957491
+      },
+      {
+        "year": 1936,
+        "score": 0.5633625349274844,
+        "historical_deviance": 3.627535241058939,
+        "margins_deviance": 8.307888193828003,
+        "tv_world_share": 0.14171689233771131,
+        "tv_conditional_on_support": 0.14190415203239778,
+        "supported_world_share_mean": 0.9985263157894737,
+        "reporter_margin_max_error": 3.3306690738754696e-16,
+        "n_observations": 350,
+        "n_reporters": 19,
+        "declaration": "Importer",
+        "jk_n_countries": 19,
+        "jk_se": 0.16467554748410446,
+        "jk_interval_low": 0.2405984618586397,
+        "jk_interval_high": 0.8861266079963293,
+        "delete_country_min": 0.4871355659433212,
+        "delete_country_max": 0.6230516645860525
+      },
+      {
+        "year": 1937,
+        "score": 0.47747596300084116,
+        "historical_deviance": 4.376235859211231,
+        "margins_deviance": 8.375185731825532,
+        "tv_world_share": 0.1549155070707533,
+        "tv_conditional_on_support": 0.1555372731680599,
+        "supported_world_share_mean": 0.997157894736842,
+        "reporter_margin_max_error": 6.661338147750939e-16,
+        "n_observations": 350,
+        "n_reporters": 19,
+        "declaration": "Importer",
+        "jk_n_countries": 19,
+        "jk_se": 0.17847830916082447,
+        "jk_interval_low": 0.12765847704562522,
+        "jk_interval_high": 0.827293448956057,
+        "delete_country_min": 0.40653847689281386,
+        "delete_country_max": 0.5679789992464047
+      }
+    ],
+    "newly_positive_cells": [
+      {
+        "declaration": "Exporter",
+        "year": 1930,
+        "mean_newly_positive_world_share": 0.0002105263157894737,
+        "mean_newly_positive_fraction_of_internal": 0.0002622423374292442,
+        "pooled_normalized_share_fraction_newly_positive_internal": 0.0002870944851096938,
+        "max_newly_positive_world_share": 0.003,
+        "newly_positive_recorded_cells": 3,
+        "now_zero_established_cells": 5,
+        "mean_pre_share_of_now_zero_cells": 9.451461781384819e-05,
+        "n_reporters": 19
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1931,
+        "mean_newly_positive_world_share": 0.0005263157894736842,
+        "mean_newly_positive_fraction_of_internal": 0.000664432358284213,
+        "pooled_normalized_share_fraction_newly_positive_internal": 0.0007029673124598144,
+        "max_newly_positive_world_share": 0.005,
+        "newly_positive_recorded_cells": 5,
+        "now_zero_established_cells": 8,
+        "mean_pre_share_of_now_zero_cells": 0.00016563996461492917,
+        "n_reporters": 19
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1932,
+        "mean_newly_positive_world_share": 0.0005263157894736842,
+        "mean_newly_positive_fraction_of_internal": 0.0006839143707561437,
+        "pooled_normalized_share_fraction_newly_positive_internal": 0.0007138080169623353,
+        "max_newly_positive_world_share": 0.006,
+        "newly_positive_recorded_cells": 6,
+        "now_zero_established_cells": 10,
+        "mean_pre_share_of_now_zero_cells": 0.0003225847932524447,
+        "n_reporters": 19
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1933,
+        "mean_newly_positive_world_share": 0.00031578947368421053,
+        "mean_newly_positive_fraction_of_internal": 0.0004098237595889778,
+        "pooled_normalized_share_fraction_newly_positive_internal": 0.00043629393137686824,
+        "max_newly_positive_world_share": 0.003,
+        "newly_positive_recorded_cells": 5,
+        "now_zero_established_cells": 6,
+        "mean_pre_share_of_now_zero_cells": 0.00026376967539135305,
+        "n_reporters": 19
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1934,
+        "mean_newly_positive_world_share": 0.0008421052631578948,
+        "mean_newly_positive_fraction_of_internal": 0.0010837047917858864,
+        "pooled_normalized_share_fraction_newly_positive_internal": 0.0011569784887699819,
+        "max_newly_positive_world_share": 0.009000000000000001,
+        "newly_positive_recorded_cells": 6,
+        "now_zero_established_cells": 4,
+        "mean_pre_share_of_now_zero_cells": 8.833107890012496e-05,
+        "n_reporters": 19
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1935,
+        "mean_newly_positive_world_share": 0.0011578947368421054,
+        "mean_newly_positive_fraction_of_internal": 0.0016202955104616587,
+        "pooled_normalized_share_fraction_newly_positive_internal": 0.0016120687647550418,
+        "max_newly_positive_world_share": 0.015,
+        "newly_positive_recorded_cells": 8,
+        "now_zero_established_cells": 3,
+        "mean_pre_share_of_now_zero_cells": 7.078721925100217e-05,
+        "n_reporters": 19
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1936,
+        "mean_newly_positive_world_share": 0.0015789473684210526,
+        "mean_newly_positive_fraction_of_internal": 0.002019696852578318,
+        "pooled_normalized_share_fraction_newly_positive_internal": 0.0022421688375090514,
+        "max_newly_positive_world_share": 0.013000000000000001,
+        "newly_positive_recorded_cells": 8,
+        "now_zero_established_cells": 5,
+        "mean_pre_share_of_now_zero_cells": 0.00041867666395699544,
+        "n_reporters": 19
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1937,
+        "mean_newly_positive_world_share": 0.0015000000000000002,
+        "mean_newly_positive_fraction_of_internal": 0.0018814137226617013,
+        "pooled_normalized_share_fraction_newly_positive_internal": 0.002159829111419356,
+        "max_newly_positive_world_share": 0.018000000000000002,
+        "newly_positive_recorded_cells": 7,
+        "now_zero_established_cells": 5,
+        "mean_pre_share_of_now_zero_cells": 0.0006296296296296296,
+        "n_reporters": 18
+      },
+      {
+        "declaration": "Importer",
+        "year": 1930,
+        "mean_newly_positive_world_share": 0.0002105263157894737,
+        "mean_newly_positive_fraction_of_internal": 0.0003365423344183113,
+        "pooled_normalized_share_fraction_newly_positive_internal": 0.0003097500157510516,
+        "max_newly_positive_world_share": 0.001,
+        "newly_positive_recorded_cells": 4,
+        "now_zero_established_cells": 5,
+        "mean_pre_share_of_now_zero_cells": 6.266488209962222e-05,
+        "n_reporters": 19
+      },
+      {
+        "declaration": "Importer",
+        "year": 1931,
+        "mean_newly_positive_world_share": 0.00036842105263157896,
+        "mean_newly_positive_fraction_of_internal": 0.0006659154764771273,
+        "pooled_normalized_share_fraction_newly_positive_internal": 0.000529747953904555,
+        "max_newly_positive_world_share": 0.002,
+        "newly_positive_recorded_cells": 5,
+        "now_zero_established_cells": 6,
+        "mean_pre_share_of_now_zero_cells": 0.00027319119788909595,
+        "n_reporters": 19
+      },
+      {
+        "declaration": "Importer",
+        "year": 1932,
+        "mean_newly_positive_world_share": 0.0006842105263157895,
+        "mean_newly_positive_fraction_of_internal": 0.0013070477929961657,
+        "pooled_normalized_share_fraction_newly_positive_internal": 0.0010035565232193741,
+        "max_newly_positive_world_share": 0.006,
+        "newly_positive_recorded_cells": 7,
+        "now_zero_established_cells": 9,
+        "mean_pre_share_of_now_zero_cells": 0.0006682508272144235,
+        "n_reporters": 19
+      },
+      {
+        "declaration": "Importer",
+        "year": 1933,
+        "mean_newly_positive_world_share": 0.001368421052631579,
+        "mean_newly_positive_fraction_of_internal": 0.002407884855342346,
+        "pooled_normalized_share_fraction_newly_positive_internal": 0.0020246329980203276,
+        "max_newly_positive_world_share": 0.012,
+        "newly_positive_recorded_cells": 10,
+        "now_zero_established_cells": 4,
+        "mean_pre_share_of_now_zero_cells": 8.586318609551263e-05,
+        "n_reporters": 19
+      },
+      {
+        "declaration": "Importer",
+        "year": 1934,
+        "mean_newly_positive_world_share": 0.0014210526315789475,
+        "mean_newly_positive_fraction_of_internal": 0.002383607180011135,
+        "pooled_normalized_share_fraction_newly_positive_internal": 0.002121168784338083,
+        "max_newly_positive_world_share": 0.01,
+        "newly_positive_recorded_cells": 8,
+        "now_zero_established_cells": 8,
+        "mean_pre_share_of_now_zero_cells": 0.0004016526597797232,
+        "n_reporters": 19
+      },
+      {
+        "declaration": "Importer",
+        "year": 1935,
+        "mean_newly_positive_world_share": 0.0015789473684210528,
+        "mean_newly_positive_fraction_of_internal": 0.002661473420874441,
+        "pooled_normalized_share_fraction_newly_positive_internal": 0.002370063558882034,
+        "max_newly_positive_world_share": 0.013,
+        "newly_positive_recorded_cells": 9,
+        "now_zero_established_cells": 4,
+        "mean_pre_share_of_now_zero_cells": 0.0004718280983762144,
+        "n_reporters": 19
+      },
+      {
+        "declaration": "Importer",
+        "year": 1936,
+        "mean_newly_positive_world_share": 0.0014736842105263158,
+        "mean_newly_positive_fraction_of_internal": 0.002607985375422476,
+        "pooled_normalized_share_fraction_newly_positive_internal": 0.0022599069295181438,
+        "max_newly_positive_world_share": 0.006,
+        "newly_positive_recorded_cells": 9,
+        "now_zero_established_cells": 4,
+        "mean_pre_share_of_now_zero_cells": 0.00016792803999435908,
+        "n_reporters": 19
+      },
+      {
+        "declaration": "Importer",
+        "year": 1937,
+        "mean_newly_positive_world_share": 0.0028421052631578945,
+        "mean_newly_positive_fraction_of_internal": 0.004876674496417068,
+        "pooled_normalized_share_fraction_newly_positive_internal": 0.004388474532688894,
+        "max_newly_positive_world_share": 0.021,
+        "newly_positive_recorded_cells": 11,
+        "now_zero_established_cells": 3,
+        "mean_pre_share_of_now_zero_cells": 0.00010690531111730112,
+        "n_reporters": 19
+      }
+    ],
+    "established_geography": [
+      {
+        "year": 1930,
+        "score": 0.9213497350791547,
+        "historical_deviance": 0.6283164685536873,
+        "margins_deviance": 7.988739379149376,
+        "tv_world_share": 0.04959440532777779,
+        "tv_conditional_on_support": 0.06657985289106136,
+        "supported_world_share_mean": 0.7330892293692955,
+        "reporter_margin_max_error": 3.1086244689504383e-15,
+        "n_observations": 331,
+        "n_reporters": 19,
+        "geography_deviance": 4.5879964052538975,
+        "geography_score": 0.42569206635673007,
+        "history_increment_over_geography": 0.8630521009488636,
+        "declaration": "Exporter",
+        "jk_n_countries": 19,
+        "jk_se": 0.07073193231438502,
+        "jk_interval_low": 0.724417513612669,
+        "jk_interval_high": 1.0016866882850584,
+        "delete_country_min": 0.8137033451512504,
+        "delete_country_max": 0.8838125109910028
+      },
+      {
+        "year": 1931,
+        "score": 0.8223357386710467,
+        "historical_deviance": 1.3493983358406125,
+        "margins_deviance": 7.595215412187718,
+        "tv_world_share": 0.07265388851747512,
+        "tv_conditional_on_support": 0.09519792593735141,
+        "supported_world_share_mean": 0.7481796057305564,
+        "reporter_margin_max_error": 4.440892098500626e-15,
+        "n_observations": 331,
+        "n_reporters": 19,
+        "geography_deviance": 4.688693024878945,
+        "geography_score": 0.38267807159818024,
+        "history_increment_over_geography": 0.7122016031588138,
+        "declaration": "Exporter",
+        "jk_n_countries": 19,
+        "jk_se": 0.1449135362169379,
+        "jk_interval_low": 0.4281710721736155,
+        "jk_interval_high": 0.996232134144012,
+        "delete_country_min": 0.5960438050143174,
+        "delete_country_max": 0.7466914064302205
+      },
+      {
+        "year": 1932,
+        "score": 0.7733378812543562,
+        "historical_deviance": 1.826344503461651,
+        "margins_deviance": 8.057563890996459,
+        "tv_world_share": 0.09504298701116247,
+        "tv_conditional_on_support": 0.1279822201962778,
+        "supported_world_share_mean": 0.7368089017574816,
+        "reporter_margin_max_error": 7.66053886991358e-15,
+        "n_observations": 331,
+        "n_reporters": 19,
+        "geography_deviance": 5.19685485505266,
+        "geography_score": 0.35503398727503266,
+        "history_increment_over_geography": 0.6485673442108968,
+        "declaration": "Exporter",
+        "jk_n_countries": 19,
+        "jk_se": 0.16395905488745477,
+        "jk_interval_low": 0.32720759663148546,
+        "jk_interval_high": 0.9699270917903081,
+        "delete_country_min": 0.513767545184039,
+        "delete_country_max": 0.6944660754615037
+      },
+      {
+        "year": 1933,
+        "score": 0.7494873403709793,
+        "historical_deviance": 1.8058833512455572,
+        "margins_deviance": 7.208750862810106,
+        "tv_world_share": 0.0954024346031745,
+        "tv_conditional_on_support": 0.13133493946552155,
+        "supported_world_share_mean": 0.7234840412680213,
+        "reporter_margin_max_error": 2.7755575615628914e-15,
+        "n_observations": 331,
+        "n_reporters": 19,
+        "geography_deviance": 4.696991403214246,
+        "geography_score": 0.34843199708204786,
+        "history_increment_over_geography": 0.6155233858827684,
+        "declaration": "Exporter",
+        "jk_n_countries": 19,
+        "jk_se": 0.17932633808973766,
+        "jk_interval_low": 0.2640437632268826,
+        "jk_interval_high": 0.9670030085386543,
+        "delete_country_min": 0.4828401463643457,
+        "delete_country_max": 0.6594074995144213
+      },
+      {
+        "year": 1934,
+        "score": 0.7180563278043033,
+        "historical_deviance": 1.9224570172630495,
+        "margins_deviance": 6.818585436911931,
+        "tv_world_share": 0.09611178027141143,
+        "tv_conditional_on_support": 0.13247774195766798,
+        "supported_world_share_mean": 0.7270065724189674,
+        "reporter_margin_max_error": 8.659739592076221e-15,
+        "n_observations": 331,
+        "n_reporters": 19,
+        "geography_deviance": 4.7413411927491556,
+        "geography_score": 0.3046444549800257,
+        "history_increment_over_geography": 0.5945330784877858,
+        "declaration": "Exporter",
+        "jk_n_countries": 19,
+        "jk_se": 0.23958474978244843,
+        "jk_interval_low": 0.12494696891418688,
+        "jk_interval_high": 1.0641191880613847,
+        "delete_country_min": 0.4063479968597038,
+        "delete_country_max": 0.6371265304792983
+      },
+      {
+        "year": 1935,
+        "score": 0.6255858981360644,
+        "historical_deviance": 2.6427990471927507,
+        "margins_deviance": 7.0584922791,
+        "tv_world_share": 0.10721035032966675,
+        "tv_conditional_on_support": 0.14820088643825854,
+        "supported_world_share_mean": 0.7171084485838478,
+        "reporter_margin_max_error": 3.552713678800501e-15,
+        "n_observations": 331,
+        "n_reporters": 19,
+        "geography_deviance": 5.244626984977899,
+        "geography_score": 0.2569763091606555,
+        "history_increment_over_geography": 0.49609399204891447,
+        "declaration": "Exporter",
+        "jk_n_countries": 19,
+        "jk_se": 0.29340147513432396,
+        "jk_interval_low": -0.07897289921436046,
+        "jk_interval_high": 1.0711608833121895,
+        "delete_country_min": 0.23815415852384725,
+        "delete_country_max": 0.5446813896862792
+      },
+      {
+        "year": 1936,
+        "score": 0.5057029344923128,
+        "historical_deviance": 3.3852443719011704,
+        "margins_deviance": 6.84860301249052,
+        "tv_world_share": 0.12196915190248357,
+        "tv_conditional_on_support": 0.17525617404734084,
+        "supported_world_share_mean": 0.7026264371713052,
+        "reporter_margin_max_error": 6.5503158452884236e-15,
+        "n_observations": 331,
+        "n_reporters": 19,
+        "geography_deviance": 5.460003289111865,
+        "geography_score": 0.20275663822915713,
+        "history_increment_over_geography": 0.3799922467717375,
+        "declaration": "Exporter",
+        "jk_n_countries": 19,
+        "jk_se": 0.265961294351567,
+        "jk_interval_low": -0.1412918901573339,
+        "jk_interval_high": 0.9012763837008089,
+        "delete_country_min": 0.13798768067716138,
+        "delete_country_max": 0.4281943435298867
+      },
+      {
+        "year": 1937,
+        "score": 0.49021091688995966,
+        "historical_deviance": 3.1505127645015167,
+        "margins_deviance": 6.180031838424959,
+        "tv_world_share": 0.11656879243212187,
+        "tv_conditional_on_support": 0.16864046719921,
+        "supported_world_share_mean": 0.6929993898217522,
+        "reporter_margin_max_error": 4.440892098500626e-15,
+        "n_observations": 317,
+        "n_reporters": 18,
+        "geography_deviance": 4.940147259855922,
+        "geography_score": 0.20062753898126096,
+        "history_increment_over_geography": 0.362263390384561,
+        "declaration": "Exporter",
+        "jk_n_countries": 19,
+        "jk_se": 0.35276853202104497,
+        "jk_interval_low": -0.32916293237668715,
+        "jk_interval_high": 1.0536897131458092,
+        "delete_country_min": 0.025950243767713377,
+        "delete_country_max": 0.4181911257483637
+      },
+      {
+        "year": 1930,
+        "score": 0.9203443554121367,
+        "historical_deviance": 0.4919298019262178,
+        "margins_deviance": 6.175705494211398,
+        "tv_world_share": 0.040530245030370976,
+        "tv_conditional_on_support": 0.06061764767744773,
+        "supported_world_share_mean": 0.6794547039797121,
+        "reporter_margin_max_error": 2.220446049250313e-16,
+        "n_observations": 331,
+        "n_reporters": 19,
+        "geography_deviance": 3.5793417848616116,
+        "geography_score": 0.4204157260710385,
+        "history_increment_over_geography": 0.8625641719919638,
+        "declaration": "Importer",
+        "jk_n_countries": 19,
+        "jk_se": 0.0492001995470836,
+        "jk_interval_low": 0.7661317808796799,
+        "jk_interval_high": 0.9589965631042476,
+        "delete_country_min": 0.837032479434651,
+        "delete_country_max": 0.8809083655668594
+      },
+      {
+        "year": 1931,
+        "score": 0.8430066799402565,
+        "historical_deviance": 0.9467589811975338,
+        "margins_deviance": 6.030568567103659,
+        "tv_world_share": 0.05918430207365568,
+        "tv_conditional_on_support": 0.08637822880132325,
+        "supported_world_share_mean": 0.6950963748302,
+        "reporter_margin_max_error": 3.3306690738754696e-16,
+        "n_observations": 331,
+        "n_reporters": 19,
+        "geography_deviance": 3.697571055693031,
+        "geography_score": 0.38686194932547,
+        "history_increment_over_geography": 0.7439511054859002,
+        "declaration": "Importer",
+        "jk_n_countries": 19,
+        "jk_se": 0.08895239627908809,
+        "jk_interval_low": 0.5696044087788875,
+        "jk_interval_high": 0.9182978021929128,
+        "delete_country_min": 0.6947387868324225,
+        "delete_country_max": 0.768026035178736
+      },
+      {
+        "year": 1932,
+        "score": 0.7919460817710042,
+        "historical_deviance": 1.333096584310912,
+        "margins_deviance": 6.4074572382897,
+        "tv_world_share": 0.07107178087349833,
+        "tv_conditional_on_support": 0.10390190712632819,
+        "supported_world_share_mean": 0.6811015289762945,
+        "reporter_margin_max_error": 3.3306690738754696e-16,
+        "n_observations": 331,
+        "n_reporters": 19,
+        "geography_deviance": 4.3008442979528585,
+        "geography_score": 0.32877518522451277,
+        "history_increment_over_geography": 0.6900383989847185,
+        "declaration": "Importer",
+        "jk_n_countries": 19,
+        "jk_se": 0.09081686858595893,
+        "jk_interval_low": 0.5120373365562391,
+        "jk_interval_high": 0.868039461413198,
+        "delete_country_min": 0.6346929836376962,
+        "delete_country_max": 0.72315855108342
+      },
+      {
+        "year": 1933,
+        "score": 0.7485455756568582,
+        "historical_deviance": 1.5113005862608633,
+        "margins_deviance": 6.010236607324513,
+        "tv_world_share": 0.08328037764285068,
+        "tv_conditional_on_support": 0.12354911439083714,
+        "supported_world_share_mean": 0.6745175562922067,
+        "reporter_margin_max_error": 4.440892098500626e-16,
+        "n_observations": 331,
+        "n_reporters": 19,
+        "geography_deviance": 4.333507529297885,
+        "geography_score": 0.27897888012981786,
+        "history_increment_over_geography": 0.6512523455784269,
+        "declaration": "Importer",
+        "jk_n_countries": 19,
+        "jk_se": 0.0890700398131555,
+        "jk_interval_low": 0.4766750675446422,
+        "jk_interval_high": 0.8258296236122117,
+        "delete_country_min": 0.6034589638456637,
+        "delete_country_max": 0.6771730551965172
+      },
+      {
+        "year": 1934,
+        "score": 0.641222761454851,
+        "historical_deviance": 2.084832010407231,
+        "margins_deviance": 5.810937223501912,
+        "tv_world_share": 0.09503845017191864,
+        "tv_conditional_on_support": 0.14323941355386727,
+        "supported_world_share_mean": 0.6685174464032309,
+        "reporter_margin_max_error": 2.220446049250313e-16,
+        "n_observations": 331,
+        "n_reporters": 19,
+        "geography_deviance": 4.093662309842006,
+        "geography_score": 0.29552460259156,
+        "history_increment_over_geography": 0.4907171494349043,
+        "declaration": "Importer",
+        "jk_n_countries": 19,
+        "jk_se": 0.18679787704987946,
+        "jk_interval_low": 0.12459331041714056,
+        "jk_interval_high": 0.856840988452668,
+        "delete_country_min": 0.3857290689346672,
+        "delete_country_max": 0.5884739060393278
+      },
+      {
+        "year": 1935,
+        "score": 0.4983477819254728,
+        "historical_deviance": 2.972034695699803,
+        "margins_deviance": 5.924492284928495,
+        "tv_world_share": 0.10464261585177499,
+        "tv_conditional_on_support": 0.15970847676559563,
+        "supported_world_share_mean": 0.6646257046139279,
+        "reporter_margin_max_error": 3.3306690738754696e-16,
+        "n_observations": 331,
+        "n_reporters": 19,
+        "geography_deviance": 4.516479879342487,
+        "geography_score": 0.23765958969478207,
+        "history_increment_over_geography": 0.3419577247995016,
+        "declaration": "Importer",
+        "jk_n_countries": 19,
+        "jk_se": 0.25857454437117544,
+        "jk_interval_low": -0.16484838216800224,
+        "jk_interval_high": 0.8487638317670054,
+        "delete_country_min": 0.1715154458393523,
+        "delete_country_max": 0.4326581210556295
+      },
+      {
+        "year": 1936,
+        "score": 0.4781543105040069,
+        "historical_deviance": 3.225400563359127,
+        "margins_deviance": 6.180755400076736,
+        "tv_world_share": 0.11342885706618469,
+        "tv_conditional_on_support": 0.17412602426923818,
+        "supported_world_share_mean": 0.6506258298347419,
+        "reporter_margin_max_error": 3.3306690738754696e-16,
+        "n_observations": 331,
+        "n_reporters": 19,
+        "geography_deviance": 5.036068339721689,
+        "geography_score": 0.18520180564673938,
+        "history_increment_over_geography": 0.35953995343570455,
+        "declaration": "Importer",
+        "jk_n_countries": 19,
+        "jk_se": 0.1875904641600373,
+        "jk_interval_low": -0.008137356317968525,
+        "jk_interval_high": 0.7272172631893776,
+        "delete_country_min": 0.2445457698613328,
+        "delete_country_max": 0.41921426373946724
+      },
+      {
+        "year": 1937,
+        "score": 0.3866683347543157,
+        "historical_deviance": 3.868085119365294,
+        "margins_deviance": 6.306677673026783,
+        "tv_world_share": 0.12410782036624117,
+        "tv_conditional_on_support": 0.19395708747071608,
+        "supported_world_share_mean": 0.6447873254165932,
+        "reporter_margin_max_error": 4.440892098500626e-16,
+        "n_observations": 331,
+        "n_reporters": 19,
+        "geography_deviance": 5.036854758420648,
+        "geography_score": 0.20134577672124876,
+        "history_increment_over_geography": 0.23204354604456223,
+        "declaration": "Importer",
+        "jk_n_countries": 19,
+        "jk_se": 0.20155764229069006,
+        "jk_interval_low": -0.16300943284519026,
+        "jk_interval_high": 0.6270965249343148,
+        "delete_country_min": 0.08787631609313618,
+        "delete_country_max": 0.30352419877041736
+      }
+    ],
+    "fixed_horizon_comparison": [
+      {
+        "declaration": "Exporter",
+        "year": 1928,
+        "rolling_training_years": "1927",
+        "training_window_years": 1,
+        "rolling_score": 0.958228343820344,
+        "rolling_tv_world_share": 0.048117189149440714,
+        "supported_world_share_mean": 0.9995789473684209,
+        "n_observations": 342,
+        "n_reporters": 19
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1929,
+        "rolling_training_years": "1928",
+        "training_window_years": 1,
+        "rolling_score": 0.9544322554913043,
+        "rolling_tv_world_share": 0.044210551529484714,
+        "supported_world_share_mean": 0.999667999750438,
+        "n_observations": 341,
+        "n_reporters": 19
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1930,
+        "rolling_training_years": "1929",
+        "training_window_years": 1,
+        "rolling_score": 0.9405105910556663,
+        "rolling_tv_world_share": 0.05016817302439103,
+        "supported_world_share_mean": 0.9992105263157894,
+        "n_observations": 345,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.9258521672819192,
+        "rolling_minus_anchored_score": 0.014658423773747042,
+        "anchored_tv_world_share_same_support": 0.0604206977927245
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1930,
+        "rolling_training_years": "1927-1928-1929",
+        "training_window_years": 3,
+        "rolling_score": 0.925753594177403,
+        "rolling_tv_world_share": 0.06064265500990509,
+        "supported_world_share_mean": 0.9997894736842105,
+        "n_observations": 350,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.925753594177403,
+        "rolling_minus_anchored_score": 0.0,
+        "anchored_tv_world_share_same_support": 0.06064265500990509
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1931,
+        "rolling_training_years": "1930",
+        "training_window_years": 1,
+        "rolling_score": 0.9167885528336911,
+        "rolling_tv_world_share": 0.06138259775298085,
+        "supported_world_share_mean": 0.9994671960967508,
+        "n_observations": 345,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.832593133760585,
+        "rolling_minus_anchored_score": 0.08419541907310613,
+        "anchored_tv_world_share_same_support": 0.0878201164445077
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1931,
+        "rolling_training_years": "1928-1929-1930",
+        "training_window_years": 3,
+        "rolling_score": 0.8916087748864149,
+        "rolling_tv_world_share": 0.07126212199437383,
+        "supported_world_share_mean": 0.9994736842105262,
+        "n_observations": 349,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.8345741304425138,
+        "rolling_minus_anchored_score": 0.05703464444390105,
+        "anchored_tv_world_share_same_support": 0.08785079170406847
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1932,
+        "rolling_training_years": "1931",
+        "training_window_years": 1,
+        "rolling_score": 0.9159346212889095,
+        "rolling_tv_world_share": 0.06845609405384696,
+        "supported_world_share_mean": 0.99946659387253,
+        "n_observations": 342,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.7821821270723053,
+        "rolling_minus_anchored_score": 0.13375249421660418,
+        "anchored_tv_world_share_same_support": 0.11450957951522399
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1932,
+        "rolling_training_years": "1929-1930-1931",
+        "training_window_years": 3,
+        "rolling_score": 0.8958643779373763,
+        "rolling_tv_world_share": 0.08292237876266736,
+        "supported_world_share_mean": 0.9994736842105264,
+        "n_observations": 349,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.786408540328069,
+        "rolling_minus_anchored_score": 0.10945583760930733,
+        "anchored_tv_world_share_same_support": 0.11457780004262932
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1933,
+        "rolling_training_years": "1932",
+        "training_window_years": 1,
+        "rolling_score": 0.9379779941189048,
+        "rolling_tv_world_share": 0.05233348333649572,
+        "supported_world_share_mean": 0.9990633182427933,
+        "n_observations": 340,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.7697563302839677,
+        "rolling_minus_anchored_score": 0.16822166383493709,
+        "anchored_tv_world_share_same_support": 0.11454089392745422
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1933,
+        "rolling_training_years": "1930-1931-1932",
+        "training_window_years": 3,
+        "rolling_score": 0.9261158704275295,
+        "rolling_tv_world_share": 0.06715520132230637,
+        "supported_world_share_mean": 0.9991791990280731,
+        "n_observations": 346,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.7729264112158507,
+        "rolling_minus_anchored_score": 0.1531894592116788,
+        "anchored_tv_world_share_same_support": 0.11470991249549149
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1934,
+        "rolling_training_years": "1933",
+        "training_window_years": 1,
+        "rolling_score": 0.9311042264975743,
+        "rolling_tv_world_share": 0.05251316087804827,
+        "supported_world_share_mean": 0.998842105263158,
+        "n_observations": 344,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.734177773774465,
+        "rolling_minus_anchored_score": 0.19692645272310927,
+        "anchored_tv_world_share_same_support": 0.11593200589381811
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1934,
+        "rolling_training_years": "1931-1932-1933",
+        "training_window_years": 3,
+        "rolling_score": 0.9190284442760112,
+        "rolling_tv_world_share": 0.05935720556832416,
+        "supported_world_share_mean": 0.9991052631578947,
+        "n_observations": 347,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.7359905394092858,
+        "rolling_minus_anchored_score": 0.18303790486672533,
+        "anchored_tv_world_share_same_support": 0.11596620181944789
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1935,
+        "rolling_training_years": "1934",
+        "training_window_years": 1,
+        "rolling_score": 0.910610504635324,
+        "rolling_tv_world_share": 0.06579725726738171,
+        "supported_world_share_mean": 0.9982631578947367,
+        "n_observations": 346,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.6687266806249158,
+        "rolling_minus_anchored_score": 0.2418838240104082,
+        "anchored_tv_world_share_same_support": 0.12682544378558985
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1935,
+        "rolling_training_years": "1932-1933-1934",
+        "training_window_years": 3,
+        "rolling_score": 0.8679973062395833,
+        "rolling_tv_world_share": 0.08192377308662868,
+        "supported_world_share_mean": 0.9987894736842106,
+        "n_observations": 348,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.6669058289586828,
+        "rolling_minus_anchored_score": 0.2010914772809005,
+        "anchored_tv_world_share_same_support": 0.12704455672191867
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1936,
+        "rolling_training_years": "1935",
+        "training_window_years": 1,
+        "rolling_score": 0.8850967840346753,
+        "rolling_tv_world_share": 0.06852469238941325,
+        "supported_world_share_mean": 0.9983684210526317,
+        "n_observations": 347,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.5714085215241065,
+        "rolling_minus_anchored_score": 0.3136882625105688,
+        "anchored_tv_world_share_same_support": 0.14984377980629515
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1936,
+        "rolling_training_years": "1933-1934-1935",
+        "training_window_years": 3,
+        "rolling_score": 0.8544571636891798,
+        "rolling_tv_world_share": 0.08368062688740659,
+        "supported_world_share_mean": 0.9984210526315791,
+        "n_observations": 349,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.5732224833495005,
+        "rolling_minus_anchored_score": 0.28123468033967924,
+        "anchored_tv_world_share_same_support": 0.14986127587711293
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1937,
+        "rolling_training_years": "1936",
+        "training_window_years": 1,
+        "rolling_score": 0.8993806253664633,
+        "rolling_tv_world_share": 0.06308023821846064,
+        "supported_world_share_mean": 0.9981508563145126,
+        "n_observations": 331,
+        "n_reporters": 18,
+        "anchored_score_same_support": 0.5600053204379462,
+        "rolling_minus_anchored_score": 0.3393753049285172,
+        "anchored_tv_world_share_same_support": 0.14099398512294747
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1937,
+        "rolling_training_years": "1934-1935-1936",
+        "training_window_years": 3,
+        "rolling_score": 0.8923730207541726,
+        "rolling_tv_world_share": 0.07035296836801007,
+        "supported_world_share_mean": 0.9984084867939403,
+        "n_observations": 333,
+        "n_reporters": 18,
+        "anchored_score_same_support": 0.5613782901246445,
+        "rolling_minus_anchored_score": 0.3309947306295281,
+        "anchored_tv_world_share_same_support": 0.14111497287674538
+      },
+      {
+        "declaration": "Importer",
+        "year": 1928,
+        "rolling_training_years": "1927",
+        "training_window_years": 1,
+        "rolling_score": 0.9147716649841515,
+        "rolling_tv_world_share": 0.04856783129571827,
+        "supported_world_share_mean": 0.9997894736842105,
+        "n_observations": 343,
+        "n_reporters": 19
+      },
+      {
+        "declaration": "Importer",
+        "year": 1929,
+        "rolling_training_years": "1928",
+        "training_window_years": 1,
+        "rolling_score": 0.9692417600253546,
+        "rolling_tv_world_share": 0.03628984615817298,
+        "supported_world_share_mean": 0.9997405460332035,
+        "n_observations": 344,
+        "n_reporters": 19
+      },
+      {
+        "declaration": "Importer",
+        "year": 1930,
+        "rolling_training_years": "1929",
+        "training_window_years": 1,
+        "rolling_score": 0.9275840939264715,
+        "rolling_tv_world_share": 0.046308346780281145,
+        "supported_world_share_mean": 0.9996842105263156,
+        "n_observations": 347,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.9118381725927628,
+        "rolling_minus_anchored_score": 0.015745921333708668,
+        "anchored_tv_world_share_same_support": 0.055325721759947225
+      },
+      {
+        "declaration": "Importer",
+        "year": 1930,
+        "rolling_training_years": "1927-1928-1929",
+        "training_window_years": 3,
+        "rolling_score": 0.9123894198255551,
+        "rolling_tv_world_share": 0.055342683466988854,
+        "supported_world_share_mean": 0.9997894736842105,
+        "n_observations": 350,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.9123894198255551,
+        "rolling_minus_anchored_score": 0.0,
+        "anchored_tv_world_share_same_support": 0.055342683466988854
+      },
+      {
+        "declaration": "Importer",
+        "year": 1931,
+        "rolling_training_years": "1930",
+        "training_window_years": 1,
+        "rolling_score": 0.9069710884137928,
+        "rolling_tv_world_share": 0.054469685670053114,
+        "supported_world_share_mean": 0.9995789473684211,
+        "n_observations": 345,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.8588090825499007,
+        "rolling_minus_anchored_score": 0.04816200586389208,
+        "anchored_tv_world_share_same_support": 0.07081975260360801
+      },
+      {
+        "declaration": "Importer",
+        "year": 1931,
+        "rolling_training_years": "1928-1929-1930",
+        "training_window_years": 3,
+        "rolling_score": 0.9052562107528002,
+        "rolling_tv_world_share": 0.060364019619728725,
+        "supported_world_share_mean": 0.9995789473684209,
+        "n_observations": 349,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.8601737628482353,
+        "rolling_minus_anchored_score": 0.04508244790456484,
+        "anchored_tv_world_share_same_support": 0.07083528721487856
+      },
+      {
+        "declaration": "Importer",
+        "year": 1932,
+        "rolling_training_years": "1931",
+        "training_window_years": 1,
+        "rolling_score": 0.9058916545070878,
+        "rolling_tv_world_share": 0.06757370113184664,
+        "supported_world_share_mean": 0.9990944746821446,
+        "n_observations": 344,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.7972651014838635,
+        "rolling_minus_anchored_score": 0.10862655302322421,
+        "anchored_tv_world_share_same_support": 0.09755208746261816
+      },
+      {
+        "declaration": "Importer",
+        "year": 1932,
+        "rolling_training_years": "1929-1930-1931",
+        "training_window_years": 3,
+        "rolling_score": 0.8635045740107878,
+        "rolling_tv_world_share": 0.08182079151802157,
+        "supported_world_share_mean": 0.9993157894736842,
+        "n_observations": 350,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.800831046996907,
+        "rolling_minus_anchored_score": 0.06267352701388085,
+        "anchored_tv_world_share_same_support": 0.09764409798125835
+      },
+      {
+        "declaration": "Importer",
+        "year": 1933,
+        "rolling_training_years": "1932",
+        "training_window_years": 1,
+        "rolling_score": 0.92575977252681,
+        "rolling_tv_world_share": 0.053444066148059625,
+        "supported_world_share_mean": 0.9981802956558541,
+        "n_observations": 341,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.7554420107568987,
+        "rolling_minus_anchored_score": 0.1703177617699113,
+        "anchored_tv_world_share_same_support": 0.11295491040839409
+      },
+      {
+        "declaration": "Importer",
+        "year": 1933,
+        "rolling_training_years": "1930-1931-1932",
+        "training_window_years": 3,
+        "rolling_score": 0.9048266004532507,
+        "rolling_tv_world_share": 0.07296767800411275,
+        "supported_world_share_mean": 0.9986315789473684,
+        "n_observations": 347,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.7587228779097792,
+        "rolling_minus_anchored_score": 0.14610372254347148,
+        "anchored_tv_world_share_same_support": 0.11308952947505659
+      },
+      {
+        "declaration": "Importer",
+        "year": 1934,
+        "rolling_training_years": "1933",
+        "training_window_years": 1,
+        "rolling_score": 0.8737127577681487,
+        "rolling_tv_world_share": 0.06146615655205119,
+        "supported_world_share_mean": 0.998578947368421,
+        "n_observations": 346,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.6838166798462482,
+        "rolling_minus_anchored_score": 0.18989607792190055,
+        "anchored_tv_world_share_same_support": 0.12052754403329624
+      },
+      {
+        "declaration": "Importer",
+        "year": 1934,
+        "rolling_training_years": "1931-1932-1933",
+        "training_window_years": 3,
+        "rolling_score": 0.8475069240443778,
+        "rolling_tv_world_share": 0.0734208536668115,
+        "supported_world_share_mean": 0.998578947368421,
+        "n_observations": 347,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.6853583257550105,
+        "rolling_minus_anchored_score": 0.16214859828936723,
+        "anchored_tv_world_share_same_support": 0.12055413663353622
+      },
+      {
+        "declaration": "Importer",
+        "year": 1935,
+        "rolling_training_years": "1934",
+        "training_window_years": 1,
+        "rolling_score": 0.8782014766382932,
+        "rolling_tv_world_share": 0.06615562538708093,
+        "supported_world_share_mean": 0.9979473684210526,
+        "n_observations": 342,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.5602282961477738,
+        "rolling_minus_anchored_score": 0.31797318049051937,
+        "anchored_tv_world_share_same_support": 0.1322443489777346
+      },
+      {
+        "declaration": "Importer",
+        "year": 1935,
+        "rolling_training_years": "1932-1933-1934",
+        "training_window_years": 3,
+        "rolling_score": 0.7988397345414476,
+        "rolling_tv_world_share": 0.08363709571177085,
+        "supported_world_share_mean": 0.9983157894736842,
+        "n_observations": 346,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.5660853072748923,
+        "rolling_minus_anchored_score": 0.23275442726655537,
+        "anchored_tv_world_share_same_support": 0.13230232728160668
+      },
+      {
+        "declaration": "Importer",
+        "year": 1936,
+        "rolling_training_years": "1935",
+        "training_window_years": 1,
+        "rolling_score": 0.8769109780520257,
+        "rolling_tv_world_share": 0.06546234849636312,
+        "supported_world_share_mean": 0.9983960653334554,
+        "n_observations": 346,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.5563403630920016,
+        "rolling_minus_anchored_score": 0.32057061496002404,
+        "anchored_tv_world_share_same_support": 0.14157059415445294
+      },
+      {
+        "declaration": "Importer",
+        "year": 1936,
+        "rolling_training_years": "1933-1934-1935",
+        "training_window_years": 3,
+        "rolling_score": 0.84762770658573,
+        "rolling_tv_world_share": 0.0816466325920714,
+        "supported_world_share_mean": 0.9985013284913503,
+        "n_observations": 348,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.5588788535211642,
+        "rolling_minus_anchored_score": 0.28874885306456577,
+        "anchored_tv_world_share_same_support": 0.1416928816581596
+      },
+      {
+        "declaration": "Importer",
+        "year": 1937,
+        "rolling_training_years": "1936",
+        "training_window_years": 1,
+        "rolling_score": 0.7742571970024251,
+        "rolling_tv_world_share": 0.08396428917322249,
+        "supported_world_share_mean": 0.9969819985955808,
+        "n_observations": 346,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.4699664612340657,
+        "rolling_minus_anchored_score": 0.3042907357683594,
+        "anchored_tv_world_share_same_support": 0.15486412282260387
+      },
+      {
+        "declaration": "Importer",
+        "year": 1937,
+        "rolling_training_years": "1934-1935-1936",
+        "training_window_years": 3,
+        "rolling_score": 0.7919068529339641,
+        "rolling_tv_world_share": 0.07907888996567808,
+        "supported_world_share_mean": 0.9969819985955809,
+        "n_observations": 348,
+        "n_reporters": 19,
+        "anchored_score_same_support": 0.4712435119305186,
+        "rolling_minus_anchored_score": 0.3206633410034455,
+        "anchored_tv_world_share_same_support": 0.15486623878327196
+      }
+    ],
+    "matched_declaration_differences": [
+      {
+        "year": 1930,
+        "exporter_score": 0.921933866333807,
+        "importer_score": 0.9229306610052195,
+        "difference_exporter_minus_importer": -0.0009967946714124487,
+        "n_common_dyads": 294,
+        "n_countries": 18,
+        "jk_n_countries": 18,
+        "jk_se": 0.0271647489082489,
+        "jk_interval_low": -0.05423970253158029,
+        "jk_interval_high": 0.05224611318875539,
+        "delete_country_min": -0.01345051276162168,
+        "delete_country_max": 0.010793754391497434
+      },
+      {
+        "year": 1931,
+        "exporter_score": 0.8316876587941168,
+        "importer_score": 0.8562772181940703,
+        "difference_exporter_minus_importer": -0.024589559399953553,
+        "n_common_dyads": 294,
+        "n_countries": 18,
+        "jk_n_countries": 18,
+        "jk_se": 0.04557878826917776,
+        "jk_interval_low": -0.11392398440754196,
+        "jk_interval_high": 0.06474486560763486,
+        "delete_country_min": -0.049721675699735624,
+        "delete_country_max": -0.005136038180345026
+      },
+      {
+        "year": 1932,
+        "exporter_score": 0.781698774357314,
+        "importer_score": 0.7985347619425064,
+        "difference_exporter_minus_importer": -0.016835987585192336,
+        "n_common_dyads": 294,
+        "n_countries": 18,
+        "jk_n_countries": 18,
+        "jk_se": 0.049103649462725434,
+        "jk_interval_low": -0.11307914053213418,
+        "jk_interval_high": 0.07940716536174951,
+        "delete_country_min": -0.04131907497840848,
+        "delete_country_max": 0.0021150689085666086
+      },
+      {
+        "year": 1933,
+        "exporter_score": 0.7622026849733994,
+        "importer_score": 0.7515402654563761,
+        "difference_exporter_minus_importer": 0.010662419517023292,
+        "n_common_dyads": 294,
+        "n_countries": 18,
+        "jk_n_countries": 18,
+        "jk_se": 0.05226672799516648,
+        "jk_interval_low": -0.091780367353503,
+        "jk_interval_high": 0.11310520638754959,
+        "delete_country_min": -0.017249098966020115,
+        "delete_country_max": 0.03442961285478663
+      },
+      {
+        "year": 1934,
+        "exporter_score": 0.7326513392155013,
+        "importer_score": 0.6431711187653864,
+        "difference_exporter_minus_importer": 0.08948022045011494,
+        "n_common_dyads": 294,
+        "n_countries": 18,
+        "jk_n_countries": 18,
+        "jk_se": 0.12560150378020346,
+        "jk_interval_low": -0.15669872695908382,
+        "jk_interval_high": 0.3356591678593137,
+        "delete_country_min": 0.01702365607397316,
+        "delete_country_max": 0.14203821406050732
+      },
+      {
+        "year": 1935,
+        "exporter_score": 0.648161900514904,
+        "importer_score": 0.5663265785913227,
+        "difference_exporter_minus_importer": 0.08183532192358123,
+        "n_common_dyads": 294,
+        "n_countries": 18,
+        "jk_n_countries": 18,
+        "jk_se": 0.1673047543007478,
+        "jk_interval_low": -0.24608199650588441,
+        "jk_interval_high": 0.40975264035304687,
+        "delete_country_min": -0.01008760953896748,
+        "delete_country_max": 0.14143773064729037
+      },
+      {
+        "year": 1936,
+        "exporter_score": 0.512246667752503,
+        "importer_score": 0.46929477517205476,
+        "difference_exporter_minus_importer": 0.04295189258044829,
+        "n_common_dyads": 294,
+        "n_countries": 18,
+        "jk_n_countries": 18,
+        "jk_se": 0.14586071869910627,
+        "jk_interval_low": -0.2429351160698,
+        "jk_interval_high": 0.3288389012306966,
+        "delete_country_min": -0.04939259299101528,
+        "delete_country_max": 0.11757248404179621
+      },
+      {
+        "year": 1937,
+        "exporter_score": 0.4947018756078013,
+        "importer_score": 0.38198559407425003,
+        "difference_exporter_minus_importer": 0.11271628153355129,
+        "n_common_dyads": 294,
+        "n_countries": 18,
+        "jk_n_countries": 18,
+        "jk_se": 0.1932329606361434,
+        "jk_interval_low": -0.2660203213132898,
+        "jk_interval_high": 0.49145288438039236,
+        "delete_country_min": -1.9674034448913247e-05,
+        "delete_country_max": 0.19884253398788398
+      }
+    ],
+    "full_matrix_smoothing_sensitivity": [
+      {
+        "declaration": "Exporter",
+        "year": 1930,
+        "epsilon": 1e-06,
+        "full_recorded_map_score": 0.9237383494423758,
+        "full_recorded_tv_world_share": 0.06074118263056954,
+        "internal_history_increment_over_geography": 0.8604875320241654
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1931,
+        "epsilon": 1e-06,
+        "full_recorded_map_score": 0.8262000908924129,
+        "full_recorded_tv_world_share": 0.08801220932326637,
+        "internal_history_increment_over_geography": 0.6982581055024706
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1932,
+        "epsilon": 1e-06,
+        "full_recorded_map_score": 0.7801951826133517,
+        "full_recorded_tv_world_share": 0.1149136882114033,
+        "internal_history_increment_over_geography": 0.638881340540136
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1933,
+        "epsilon": 1e-06,
+        "full_recorded_map_score": 0.7707179963888872,
+        "full_recorded_tv_world_share": 0.11510339339756723,
+        "internal_history_increment_over_geography": 0.6196805029348287
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1934,
+        "epsilon": 1e-06,
+        "full_recorded_map_score": 0.7211999919725072,
+        "full_recorded_tv_world_share": 0.11657300646992015,
+        "internal_history_increment_over_geography": 0.5691558733360792
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1935,
+        "epsilon": 1e-06,
+        "full_recorded_map_score": 0.6428053683416446,
+        "full_recorded_tv_world_share": 0.12772584196187883,
+        "internal_history_increment_over_geography": 0.4606544252574547
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1936,
+        "epsilon": 1e-06,
+        "full_recorded_map_score": 0.5361184044202953,
+        "full_recorded_tv_world_share": 0.15096373587430628,
+        "internal_history_increment_over_geography": 0.32713570718530427
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1937,
+        "epsilon": 1e-06,
+        "full_recorded_map_score": 0.5196256154842005,
+        "full_recorded_tv_world_share": 0.14222397206787804,
+        "internal_history_increment_over_geography": 0.3065766055560195
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1930,
+        "epsilon": 1e-08,
+        "full_recorded_map_score": 0.9200728987345635,
+        "full_recorded_tv_world_share": 0.060744251055860184,
+        "internal_history_increment_over_geography": 0.8528703083685841
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1931,
+        "epsilon": 1e-08,
+        "full_recorded_map_score": 0.8164887783382397,
+        "full_recorded_tv_world_share": 0.0880155707512894,
+        "internal_history_increment_over_geography": 0.6795239686063206
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1932,
+        "epsilon": 1e-08,
+        "full_recorded_map_score": 0.7710784919407483,
+        "full_recorded_tv_world_share": 0.11491611013372616,
+        "internal_history_increment_over_geography": 0.6218929079560656
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1933,
+        "epsilon": 1e-08,
+        "full_recorded_map_score": 0.764631664814244,
+        "full_recorded_tv_world_share": 0.11510674918929065,
+        "internal_history_increment_over_geography": 0.6084703731150107
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1934,
+        "epsilon": 1e-08,
+        "full_recorded_map_score": 0.704060797100319,
+        "full_recorded_tv_world_share": 0.11657671133717723,
+        "internal_history_increment_over_geography": 0.5395862397309102
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1935,
+        "epsilon": 1e-08,
+        "full_recorded_map_score": 0.6203357036985073,
+        "full_recorded_tv_world_share": 0.1277302400374395,
+        "internal_history_increment_over_geography": 0.42374397692450216
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1936,
+        "epsilon": 1e-08,
+        "full_recorded_map_score": 0.5056043337683124,
+        "full_recorded_tv_world_share": 0.15096758450970016,
+        "internal_history_increment_over_geography": 0.2785398483574618
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1937,
+        "epsilon": 1e-08,
+        "full_recorded_map_score": 0.4885425229548216,
+        "full_recorded_tv_world_share": 0.1422285632891369,
+        "internal_history_increment_over_geography": 0.2577427684163477
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1930,
+        "epsilon": 1e-10,
+        "full_recorded_map_score": 0.916417867202794,
+        "full_recorded_tv_world_share": 0.06074428174186723,
+        "internal_history_increment_over_geography": 0.8452747329113303
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1931,
+        "epsilon": 1e-10,
+        "full_recorded_map_score": 0.806796132798948,
+        "full_recorded_tv_world_share": 0.08801560436737438,
+        "internal_history_increment_over_geography": 0.6608253669841028
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1932,
+        "epsilon": 1e-10,
+        "full_recorded_map_score": 0.7619813491666358,
+        "full_recorded_tv_world_share": 0.11491613435421624,
+        "internal_history_increment_over_geography": 0.6049403527429398
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1933,
+        "epsilon": 1e-10,
+        "full_recorded_map_score": 0.7585742475010838,
+        "full_recorded_tv_world_share": 0.115106782749227,
+        "internal_history_increment_over_geography": 0.5973128843122367
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1934,
+        "epsilon": 1e-10,
+        "full_recorded_map_score": 0.6869564461661614,
+        "full_recorded_tv_world_share": 0.11657674838788126,
+        "internal_history_increment_over_geography": 0.5100759746371957
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1935,
+        "epsilon": 1e-10,
+        "full_recorded_map_score": 0.5979130234224836,
+        "full_recorded_tv_world_share": 0.12773028402111827,
+        "internal_history_increment_over_geography": 0.38690994801313294
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1936,
+        "epsilon": 1e-10,
+        "full_recorded_map_score": 0.47513938946980105,
+        "full_recorded_tv_world_share": 0.1509676229985067,
+        "internal_history_increment_over_geography": 0.23002130696324596
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1937,
+        "epsilon": 1e-10,
+        "full_recorded_map_score": 0.4575483311659093,
+        "full_recorded_tv_world_share": 0.14222860920442276,
+        "internal_history_increment_over_geography": 0.2090475580486315
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1930,
+        "epsilon": 1e-12,
+        "full_recorded_map_score": 0.9127629400231718,
+        "full_recorded_tv_world_share": 0.06074428204872736,
+        "internal_history_increment_over_geography": 0.8376793742686846
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1931,
+        "epsilon": 1e-12,
+        "full_recorded_map_score": 0.7971036741534087,
+        "full_recorded_tv_world_share": 0.08801560470353531,
+        "internal_history_increment_over_geography": 0.6421271211449027
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1932,
+        "epsilon": 1e-12,
+        "full_recorded_map_score": 0.752884402093478,
+        "full_recorded_tv_world_share": 0.11491613459642114,
+        "internal_history_increment_over_geography": 0.5879881567160454
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1933,
+        "epsilon": 1e-12,
+        "full_recorded_map_score": 0.7525171196055056,
+        "full_recorded_tv_world_share": 0.11510678308482646,
+        "internal_history_increment_over_geography": 0.5861559224250685
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1934,
+        "epsilon": 1e-12,
+        "full_recorded_map_score": 0.6698524440457517,
+        "full_recorded_tv_world_share": 0.11657674875838839,
+        "internal_history_increment_over_geography": 0.4805663038735929
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1935,
+        "epsilon": 1e-12,
+        "full_recorded_map_score": 0.5754908135311452,
+        "full_recorded_tv_world_share": 0.12773028446095525,
+        "internal_history_increment_over_geography": 0.3500766841836761
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1936,
+        "epsilon": 1e-12,
+        "full_recorded_map_score": 0.4446749369948091,
+        "full_recorded_tv_world_share": 0.15096762338339487,
+        "internal_history_increment_over_geography": 0.18150353963385302
+      },
+      {
+        "declaration": "Exporter",
+        "year": 1937,
+        "epsilon": 1e-12,
+        "full_recorded_map_score": 0.42655504310552694,
+        "full_recorded_tv_world_share": 0.1422286096635758,
+        "internal_history_increment_over_geography": 0.16035375707603705
+      },
+      {
+        "declaration": "Importer",
+        "year": 1930,
+        "epsilon": 1e-06,
+        "full_recorded_map_score": 0.9093248731142582,
+        "full_recorded_tv_world_share": 0.055497074344571996,
+        "internal_history_increment_over_geography": 0.8567702180901475
+      },
+      {
+        "declaration": "Importer",
+        "year": 1931,
+        "epsilon": 1e-06,
+        "full_recorded_map_score": 0.8522639970848616,
+        "full_recorded_tv_world_share": 0.07103748817387125,
+        "internal_history_increment_over_geography": 0.731758585684011
+      },
+      {
+        "declaration": "Importer",
+        "year": 1932,
+        "epsilon": 1e-06,
+        "full_recorded_map_score": 0.7837911096727266,
+        "full_recorded_tv_world_share": 0.09805730466064881,
+        "internal_history_increment_over_geography": 0.6593343660108892
+      },
+      {
+        "declaration": "Importer",
+        "year": 1933,
+        "epsilon": 1e-06,
+        "full_recorded_map_score": 0.7158222100444692,
+        "full_recorded_tv_world_share": 0.11381100603456776,
+        "internal_history_increment_over_geography": 0.5723756275348646
+      },
+      {
+        "declaration": "Importer",
+        "year": 1934,
+        "epsilon": 1e-06,
+        "full_recorded_map_score": 0.6419353182836176,
+        "full_recorded_tv_world_share": 0.12123202196550037,
+        "internal_history_increment_over_geography": 0.41089783426742
+      },
+      {
+        "declaration": "Importer",
+        "year": 1935,
+        "epsilon": 1e-06,
+        "full_recorded_map_score": 0.523971853496183,
+        "full_recorded_tv_world_share": 0.13362743557595794,
+        "internal_history_increment_over_geography": 0.26821319154146406
+      },
+      {
+        "declaration": "Importer",
+        "year": 1936,
+        "epsilon": 1e-06,
+        "full_recorded_map_score": 0.5251008862531543,
+        "full_recorded_tv_world_share": 0.14257683089743584,
+        "internal_history_increment_over_geography": 0.30166076165012357
+      },
+      {
+        "declaration": "Importer",
+        "year": 1937,
+        "epsilon": 1e-06,
+        "full_recorded_map_score": 0.3840926562112582,
+        "full_recorded_tv_world_share": 0.1574318296013388,
+        "internal_history_increment_over_geography": 0.09116486348654085
+      },
+      {
+        "declaration": "Importer",
+        "year": 1930,
+        "epsilon": 1e-08,
+        "full_recorded_map_score": 0.9045955755581065,
+        "full_recorded_tv_world_share": 0.055499245716815186,
+        "internal_history_increment_over_geography": 0.846935349953283
+      },
+      {
+        "declaration": "Importer",
+        "year": 1931,
+        "epsilon": 1e-08,
+        "full_recorded_map_score": 0.8438789617135734,
+        "full_recorded_tv_world_share": 0.07104001628180613,
+        "internal_history_increment_over_geography": 0.7150660130309165
+      },
+      {
+        "declaration": "Importer",
+        "year": 1932,
+        "epsilon": 1e-08,
+        "full_recorded_map_score": 0.7695508597891916,
+        "full_recorded_tv_world_share": 0.09805920498129526,
+        "internal_history_increment_over_geography": 0.6324279372067418
+      },
+      {
+        "declaration": "Importer",
+        "year": 1933,
+        "epsilon": 1e-08,
+        "full_recorded_map_score": 0.6859358320285094,
+        "full_recorded_tv_world_share": 0.11381427130238253,
+        "internal_history_increment_over_geography": 0.5187156989775732
+      },
+      {
+        "declaration": "Importer",
+        "year": 1934,
+        "epsilon": 1e-08,
+        "full_recorded_map_score": 0.6104421344451836,
+        "full_recorded_tv_world_share": 0.12123527550391956,
+        "internal_history_increment_over_geography": 0.35229873455467375
+      },
+      {
+        "declaration": "Importer",
+        "year": 1935,
+        "epsilon": 1e-08,
+        "full_recorded_map_score": 0.48946583567006285,
+        "full_recorded_tv_world_share": 0.1336307660349859,
+        "internal_history_increment_over_geography": 0.20912512283009377
+      },
+      {
+        "declaration": "Importer",
+        "year": 1936,
+        "epsilon": 1e-08,
+        "full_recorded_map_score": 0.49474000846985633,
+        "full_recorded_tv_world_share": 0.14257955439973247,
+        "internal_history_increment_over_geography": 0.2520584124625276
+      },
+      {
+        "declaration": "Importer",
+        "year": 1937,
+        "epsilon": 1e-08,
+        "full_recorded_map_score": 0.32570624692833383,
+        "full_recorded_tv_world_share": 0.1574358140204978,
+        "internal_history_increment_over_geography": -0.004569545513335438
+      },
+      {
+        "declaration": "Importer",
+        "year": 1930,
+        "epsilon": 1e-10,
+        "full_recorded_map_score": 0.8998757868118523,
+        "full_recorded_tv_world_share": 0.0554992674318521,
+        "internal_history_increment_over_geography": 0.8371176334882282
+      },
+      {
+        "declaration": "Importer",
+        "year": 1931,
+        "epsilon": 1e-10,
+        "full_recorded_map_score": 0.8355101904219912,
+        "full_recorded_tv_world_share": 0.07104004156423045,
+        "internal_history_increment_over_geography": 0.6984039078311275
+      },
+      {
+        "declaration": "Importer",
+        "year": 1932,
+        "epsilon": 1e-10,
+        "full_recorded_map_score": 0.7553266514689961,
+        "full_recorded_tv_world_share": 0.09805922398572525,
+        "internal_history_increment_over_geography": 0.6055499713294743
+      },
+      {
+        "declaration": "Importer",
+        "year": 1933,
+        "epsilon": 1e-10,
+        "full_recorded_map_score": 0.6560706116262428,
+        "full_recorded_tv_world_share": 0.11381430395746431,
+        "internal_history_increment_over_geography": 0.4650914183642073
+      },
+      {
+        "declaration": "Importer",
+        "year": 1934,
+        "epsilon": 1e-10,
+        "full_recorded_map_score": 0.5789762599360526,
+        "full_recorded_tv_world_share": 0.12123530804121484,
+        "internal_history_increment_over_geography": 0.2937488691616599
+      },
+      {
+        "declaration": "Importer",
+        "year": 1935,
+        "epsilon": 1e-10,
+        "full_recorded_map_score": 0.4549972063782943,
+        "full_recorded_tv_world_share": 0.13363079934167618,
+        "internal_history_increment_over_geography": 0.15009913907280825
+      },
+      {
+        "declaration": "Importer",
+        "year": 1936,
+        "epsilon": 1e-10,
+        "full_recorded_map_score": 0.4644106881389459,
+        "full_recorded_tv_world_share": 0.14257958163638745,
+        "internal_history_increment_over_geography": 0.2025065303487381
+      },
+      {
+        "declaration": "Importer",
+        "year": 1937,
+        "epsilon": 1e-10,
+        "full_recorded_map_score": 0.26736609230139263,
+        "full_recorded_tv_world_share": 0.15743585386727627,
+        "internal_history_increment_over_geography": -0.10023021949429678
+      },
+      {
+        "declaration": "Importer",
+        "year": 1930,
+        "epsilon": 1e-12,
+        "full_recorded_map_score": 0.8951560932400967,
+        "full_recorded_tv_world_share": 0.055499267649002516,
+        "internal_history_increment_over_geography": 0.8273000887162454
+      },
+      {
+        "declaration": "Importer",
+        "year": 1931,
+        "epsilon": 1e-12,
+        "full_recorded_map_score": 0.8271415818921575,
+        "full_recorded_tv_world_share": 0.0710400418170548,
+        "internal_history_increment_over_geography": 0.6817421075442207
+      },
+      {
+        "declaration": "Importer",
+        "year": 1932,
+        "epsilon": 1e-12,
+        "full_recorded_map_score": 0.7411026039177144,
+        "full_recorded_tv_world_share": 0.09805922417576966,
+        "internal_history_increment_over_geography": 0.5786722907468226
+      },
+      {
+        "declaration": "Importer",
+        "year": 1933,
+        "epsilon": 1e-12,
+        "full_recorded_map_score": 0.6262056030775256,
+        "full_recorded_tv_world_share": 0.11381430428401533,
+        "internal_history_increment_over_geography": 0.41146749472564514
+      },
+      {
+        "declaration": "Importer",
+        "year": 1934,
+        "epsilon": 1e-12,
+        "full_recorded_map_score": 0.5475106588082765,
+        "full_recorded_tv_world_share": 0.12123530836658794,
+        "internal_history_increment_over_geography": 0.23519949664549233
+      },
+      {
+        "declaration": "Importer",
+        "year": 1935,
+        "epsilon": 1e-12,
+        "full_recorded_map_score": 0.4205289513080128,
+        "full_recorded_tv_world_share": 0.13363079967474328,
+        "internal_history_increment_over_geography": 0.09107377673782546
+      },
+      {
+        "declaration": "Importer",
+        "year": 1936,
+        "epsilon": 1e-12,
+        "full_recorded_map_score": 0.4340816835822242,
+        "full_recorded_tv_world_share": 0.14257958190875422,
+        "internal_history_increment_over_geography": 0.15295515323005582
+      },
+      {
+        "declaration": "Importer",
+        "year": 1937,
+        "epsilon": 1e-12,
+        "full_recorded_map_score": 0.20902640052132626,
+        "full_recorded_tv_world_share": 0.15743585426574433,
+        "internal_history_increment_over_geography": -0.19589015563606704
+      }
+    ],
+    "geography_conditioned_reassignment": [
+      {
+        "declaration": "Exporter",
+        "year": 1937,
+        "draws": 499,
+        "observed_deviance": 3.1505127645015154,
+        "reassignment_mean": 14.125435111620618,
+        "reassignment_p05": 10.95975054813546,
+        "reassignment_median": 14.039620572980077,
+        "reassignment_p95": 17.94681680142109,
+        "reassignments_with_deviance_at_most_observed": 0,
+        "canonical_normalization_error": 8.770761894538737e-15,
+        "canonical_prediction_error": 6.661338147750939e-16,
+        "interpretation": "Descriptive geography-conditioned residual reassignment; not a randomization p-value or concentration-preserving test."
+      },
+      {
+        "declaration": "Importer",
+        "year": 1937,
+        "draws": 499,
+        "observed_deviance": 3.868085119365295,
+        "reassignment_mean": 12.368096402668375,
+        "reassignment_p05": 10.323248539237769,
+        "reassignment_median": 12.228855041932793,
+        "reassignment_p95": 14.714425969819615,
+        "reassignments_with_deviance_at_most_observed": 0,
+        "canonical_normalization_error": 7.549516567451064e-15,
+        "canonical_prediction_error": 3.3306690738754696e-16,
+        "interpretation": "Descriptive geography-conditioned residual reassignment; not a randomization p-value or concentration-preserving test."
+      }
+    ],
+    "established_sample_robustness": [
+      {
+        "declaration": "Exporter",
+        "specification": "Training 1927-1929",
+        "year": 1937,
+        "score": 0.5608560699433078,
+        "historical_deviance": 3.460971614701042,
+        "margins_deviance": 7.881178305832989,
+        "tv_world_share": 0.14119921321839493,
+        "tv_conditional_on_support": 0.1414350718321017,
+        "supported_world_share_mean": 0.9985000000000002,
+        "reporter_margin_max_error": 4.551914400963142e-15,
+        "n_observations": 335,
+        "n_reporters": 18,
+        "anchor_score_same_support": 0.5608560699433078
+      },
+      {
+        "declaration": "Exporter",
+        "specification": "Training 1927-1928",
+        "year": 1937,
+        "score": 0.5179817989824953,
+        "historical_deviance": 3.770190715972574,
+        "margins_deviance": 7.821677081931721,
+        "tv_world_share": 0.147558359046815,
+        "tv_conditional_on_support": 0.14790285956113344,
+        "supported_world_share_mean": 0.9980555555555556,
+        "reporter_margin_max_error": 2.7755575615628914e-15,
+        "n_observations": 332,
+        "n_reporters": 18,
+        "anchor_score_same_support": 0.5593854774118903
+      },
+      {
+        "declaration": "Exporter",
+        "specification": "Training 1928-1929",
+        "year": 1937,
+        "score": 0.5719980546768632,
+        "historical_deviance": 3.3566250323959865,
+        "margins_deviance": 7.842546205863085,
+        "tv_world_share": 0.14095607787421013,
+        "tv_conditional_on_support": 0.14133259491671332,
+        "supported_world_share_mean": 0.9974999999999999,
+        "reporter_margin_max_error": 1.9984014443252818e-15,
+        "n_observations": 332,
+        "n_reporters": 18,
+        "anchor_score_same_support": 0.5631577916502255
+      },
+      {
+        "declaration": "Exporter",
+        "specification": "Training 1928 only",
+        "year": 1937,
+        "score": 0.5256043656292108,
+        "historical_deviance": 3.671688647493079,
+        "margins_deviance": 7.739718457491695,
+        "tv_world_share": 0.1479740724499036,
+        "tv_conditional_on_support": 0.14859263338469997,
+        "supported_world_share_mean": 0.9965131702222041,
+        "reporter_margin_max_error": 6.772360450213455e-15,
+        "n_observations": 326,
+        "n_reporters": 18,
+        "anchor_score_same_support": 0.5629241099334262
+      },
+      {
+        "declaration": "Exporter",
+        "specification": "Exclude every Germany-related dyad",
+        "year": 1937,
+        "score": 0.5955511666005524,
+        "historical_deviance": 2.8599079926242386,
+        "margins_deviance": 7.071124346153558,
+        "tv_world_share": 0.1171531287115658,
+        "tv_conditional_on_support": 0.13942623258814552,
+        "supported_world_share_mean": 0.8510165004673435,
+        "reporter_margin_max_error": 2.6645352591003757e-15,
+        "n_observations": 299,
+        "n_reporters": 17
+      },
+      {
+        "declaration": "Exporter",
+        "specification": "Exclude every Spain-related dyad",
+        "year": 1937,
+        "score": 0.58150355452683,
+        "historical_deviance": 3.1978013377408088,
+        "margins_deviance": 7.641167260393903,
+        "tv_world_share": 0.13615106767699078,
+        "tv_conditional_on_support": 0.13772273949986477,
+        "supported_world_share_mean": 0.9897747478718996,
+        "reporter_margin_max_error": 4.9960036108132044e-15,
+        "n_observations": 317,
+        "n_reporters": 18
+      },
+      {
+        "declaration": "Exporter",
+        "specification": "Nineteen-country internal established dyads",
+        "year": 1937,
+        "score": 0.49021091688995966,
+        "historical_deviance": 3.1505127645015167,
+        "margins_deviance": 6.180031838424959,
+        "tv_world_share": 0.11656879243212187,
+        "tv_conditional_on_support": 0.16864046719921,
+        "supported_world_share_mean": 0.6929993898217522,
+        "reporter_margin_max_error": 4.440892098500626e-15,
+        "n_observations": 317,
+        "n_reporters": 18
+      },
+      {
+        "declaration": "Exporter",
+        "specification": "Full twenty-one-country unbalanced internal established dyads",
+        "year": 1937,
+        "score": 0.301159876233284,
+        "historical_deviance": 5.050860204866699,
+        "margins_deviance": 7.227490284391221,
+        "tv_world_share": 0.141456129665093,
+        "tv_conditional_on_support": 0.19153879948445768,
+        "supported_world_share_mean": 0.7245836058997772,
+        "reporter_margin_max_error": 6.106226635438361e-15,
+        "n_observations": 365,
+        "n_reporters": 20
+      },
+      {
+        "declaration": "Importer",
+        "specification": "Training 1927-1929",
+        "year": 1937,
+        "score": 0.47747596300084116,
+        "historical_deviance": 4.376235859211231,
+        "margins_deviance": 8.375185731825532,
+        "tv_world_share": 0.1549155070707533,
+        "tv_conditional_on_support": 0.1555372731680599,
+        "supported_world_share_mean": 0.997157894736842,
+        "reporter_margin_max_error": 6.661338147750939e-16,
+        "n_observations": 350,
+        "n_reporters": 19,
+        "anchor_score_same_support": 0.47747596300084116
+      },
+      {
+        "declaration": "Importer",
+        "specification": "Training 1927-1928",
+        "year": 1937,
+        "score": 0.42845746256559025,
+        "historical_deviance": 4.73335192449934,
+        "margins_deviance": 8.281714158576587,
+        "tv_world_share": 0.1592059257416496,
+        "tv_conditional_on_support": 0.15988053746578024,
+        "supported_world_share_mean": 0.9968767354376861,
+        "reporter_margin_max_error": 3.3306690738754696e-16,
+        "n_observations": 346,
+        "n_reporters": 19,
+        "anchor_score_same_support": 0.4724941352178068
+      },
+      {
+        "declaration": "Importer",
+        "specification": "Training 1928-1929",
+        "year": 1937,
+        "score": 0.5021308679769183,
+        "historical_deviance": 4.16607916157064,
+        "margins_deviance": 8.367819761473978,
+        "tv_world_share": 0.15545083395566503,
+        "tv_conditional_on_support": 0.15607303332014458,
+        "supported_world_share_mean": 0.9970526315789475,
+        "reporter_margin_max_error": 3.3306690738754696e-16,
+        "n_observations": 349,
+        "n_reporters": 19,
+        "anchor_score_same_support": 0.47761733163099385
+      },
+      {
+        "declaration": "Importer",
+        "specification": "Training 1928 only",
+        "year": 1937,
+        "score": 0.46696050973224335,
+        "historical_deviance": 4.397068042296988,
+        "margins_deviance": 8.24904743940876,
+        "tv_world_share": 0.15947291911394967,
+        "tv_conditional_on_support": 0.16016247130681618,
+        "supported_world_share_mean": 0.9966728772588401,
+        "reporter_margin_max_error": 4.440892098500626e-16,
+        "n_observations": 344,
+        "n_reporters": 19,
+        "anchor_score_same_support": 0.4710494236570242
+      },
+      {
+        "declaration": "Importer",
+        "specification": "Exclude every Germany-related dyad",
+        "year": 1937,
+        "score": 0.5257233845090974,
+        "historical_deviance": 3.43186091238946,
+        "margins_deviance": 7.235990138027981,
+        "tv_world_share": 0.1279562494688621,
+        "tv_conditional_on_support": 0.15480275997026638,
+        "supported_world_share_mean": 0.8241942714081003,
+        "reporter_margin_max_error": 2.220446049250313e-16,
+        "n_observations": 313,
+        "n_reporters": 18
+      },
+      {
+        "declaration": "Importer",
+        "specification": "Exclude every Spain-related dyad",
+        "year": 1937,
+        "score": 0.5129920708088833,
+        "historical_deviance": 3.49284813134439,
+        "margins_deviance": 7.172055980989358,
+        "tv_world_share": 0.14138695520360128,
+        "tv_conditional_on_support": 0.14236942018574886,
+        "supported_world_share_mean": 0.9924653836209131,
+        "reporter_margin_max_error": 3.3306690738754696e-16,
+        "n_observations": 314,
+        "n_reporters": 18
+      },
+      {
+        "declaration": "Importer",
+        "specification": "Nineteen-country internal established dyads",
+        "year": 1937,
+        "score": 0.3866683347543157,
+        "historical_deviance": 3.868085119365294,
+        "margins_deviance": 6.306677673026783,
+        "tv_world_share": 0.12410782036624117,
+        "tv_conditional_on_support": 0.19395708747071608,
+        "supported_world_share_mean": 0.6447873254165932,
+        "reporter_margin_max_error": 4.440892098500626e-16,
+        "n_observations": 331,
+        "n_reporters": 19
+      },
+      {
+        "declaration": "Importer",
+        "specification": "Full twenty-one-country unbalanced internal established dyads",
+        "year": 1937,
+        "score": 0.34705478237147236,
+        "historical_deviance": 5.015443697772331,
+        "margins_deviance": 7.681262627189817,
+        "tv_world_share": 0.1437582680295019,
+        "tv_conditional_on_support": 0.2085766759575366,
+        "supported_world_share_mean": 0.6825480830253605,
+        "reporter_margin_max_error": 4.440892098500626e-16,
+        "n_observations": 381,
+        "n_reporters": 21
+      }
+    ],
+    "generated_tables": [
+      "established_link_prediction.csv",
+      "recorded_entry.csv",
+      "history_and_geography.csv",
+      "fixed_horizon_comparison.csv",
+      "matched_declaration_comparison.csv",
+      "smoothing_sensitivity.csv",
+      "geography_conditioned_reassignment.csv",
+      "sample_robustness.csv",
+      "entry_by_country.csv",
+      "country_deletions.csv",
+      "geography_country_deletions.csv",
+      "matched_country_deletions.csv",
+      "reassignment_draws.csv"
+    ]
+  },
+  "inference_convention": {
+    "coefficient_covariance": "directed-pair cluster sandwich, G/(G-1) multiplier",
+    "critical_values": "normal approximations; no claim to exact small-treated-group inference",
+    "germany_reference_year": 1933,
+    "germany_joint_pretrend_years": [
+      1928,
+      1929,
+      1930,
+      1931,
+      1932
+    ],
+    "attenuation_reference_year": 1929,
+    "attenuation_support": "positive 1927-1929 mean; exact log; within-reporter standardization",
+    "lag_diagnostic_support": "strictly positive recorded lag; current zeros retained; no pseudo-count",
+    "automatic_separation_scope": "exactly zero-total fixed-effect groups only"
+  }
+}

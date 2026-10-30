@@ -1,0 +1,28 @@
+\begin{table}[!htbp]\centering
+\caption{Training windows and sample boundaries: 1937}\label{tab:app_robustness}
+\begin{threeparttable}\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lp{.35\textwidth}rrrrr@{}}
+\toprule
+Dec. & Specification & \shortstack{Score\\(\%)} & \shortstack{Anchor\\(\%)} & \shortstack{TV\\(pp)} & \shortstack{Supported\\mass (\%)} & Cells \\
+\midrule
+Exp & Training 1927--1929 & 56.1 & 56.1 & 14.1 & 99.9 & 335 \\
+Exp & Training 1927--1928 & 51.8 & 55.9 & 14.8 & 99.8 & 332 \\
+Exp & Training 1928--1929 & 57.2 & 56.3 & 14.1 & 99.8 & 332 \\
+Exp & Training 1928 only & 52.6 & 56.3 & 14.8 & 99.7 & 326 \\
+Exp & Delete all Germany-related dyads & 59.6 & \textemdash & 11.7 & 85.1 & 299 \\
+Exp & Delete all Spain-related dyads & 58.2 & \textemdash & 13.6 & 99.0 & 317 \\
+Exp & Nineteen-country internal links & 49.0 & \textemdash & 11.7 & 69.3 & 317 \\
+Exp & Twenty-one-country observed internal links & 30.1 & \textemdash & 14.1 & 72.5 & 365 \\
+Imp & Training 1927--1929 & 47.7 & 47.7 & 15.5 & 99.7 & 350 \\
+Imp & Training 1927--1928 & 42.8 & 47.2 & 15.9 & 99.7 & 346 \\
+Imp & Training 1928--1929 & 50.2 & 47.8 & 15.5 & 99.7 & 349 \\
+Imp & Training 1928 only & 46.7 & 47.1 & 15.9 & 99.7 & 344 \\
+Imp & Delete all Germany-related dyads & 52.6 & \textemdash & 12.8 & 82.4 & 313 \\
+Imp & Delete all Spain-related dyads & 51.3 & \textemdash & 14.1 & 99.2 & 314 \\
+Imp & Nineteen-country internal links & 38.7 & \textemdash & 12.4 & 64.5 & 331 \\
+Imp & Twenty-one-country observed internal links & 34.7 & \textemdash & 14.4 & 68.3 & 381 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize\item \textit{Notes:} Every row uses positive total recorded trade in its stated training window and retains original world-share outcomes. The alternative training rows also report the 1927--1929 anchor re-estimated on the same support. Country exclusions remove all incident observations; \External{} keeps its original definition. Internal-only and unbalanced twenty-one-country results have different observed portfolio boundaries. Missing observations are not set to zero or imputed.
+\item \textit{Source:} Author's calculations from League of Nations trade statistics \parencite{league1930,league1936,league1938}.
+\end{tablenotes}\end{threeparttable}\end{table}

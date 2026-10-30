@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the article and the version-specific repository record for this package."
+title: "Replication package for Old Partners, New Hierarchies: Trade Reallocation in Interwar Europe, 1927–1937"
+type: dataset
+authors:
+  - family-names: Dittrich
+    given-names: Adam
+    affiliation: Prague University of Economics and Business
+version: "3.0.3-minimal"
+date-released: "2026-10-30"
+abstract: "Data, executable code, and outputs reproducing the article and online appendix. The package identifier is local and is not an ICPSR version number."
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Dittrich
+      given-names: Adam
+  title: "Old Partners, New Hierarchies: Trade Reallocation in Interwar Europe, 1927–1937"
