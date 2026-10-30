@@ -1,0 +1,33 @@
+name: Check replication data transfer
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/data-transfer-check.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect existing public source without changing it
+        run: |
+          python - <<'PY'
+          import csv, hashlib, io, json, pathlib, urllib.request
+          url = 'https://raw.githubusercontent.com/adamdittrich/adamdittrich.github.io/a5f5e17cdb5e4d2ab9e16c05e7102660fa406fae/assets/files/datasets/missing-j/data/annual_bilateral_trade_weights_europe_1927_1938.csv'
+          data = urllib.request.urlopen(url, timeout=60).read()
+          rows = list(csv.DictReader(io.StringIO(data.decode('utf-8-sig'))))
+          report = {'url':url, 'sha256':hashlib.sha256(data).hexdigest(), 'rows':len(rows), 'columns':list(rows[0]), 'first_rows':rows[:2], 'last_rows':rows[-2:]}
+          pathlib.Path('publication').mkdir(exist_ok=True)
+          pathlib.Path('publication/data_transfer_check.json').write_text(json.dumps(report, indent=2)+'\n')
+          print(json.dumps(report, indent=2))
+          PY
+      - name: Record transfer check
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add publication/data_transfer_check.json
+          git diff --cached --quiet || git commit -m 'Record public data transfer inspection'
+          git push origin HEAD:main
